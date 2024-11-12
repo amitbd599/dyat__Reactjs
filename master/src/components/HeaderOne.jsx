@@ -56,6 +56,19 @@ const HeaderOne = () => {
       }
     };
   }, []);
+
+  const [activeMenu, setActiveMenu] = useState(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // Toggle mobile menu
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  // Toggle sub-menu
+  const handleSubMenuToggle = (index) => {
+    setActiveMenu(activeMenu === index ? null : index);
+  };
   return (
     <>
       {/* search popup start*/}
@@ -81,7 +94,7 @@ const HeaderOne = () => {
       <div className='body-overlay' id='body-overlay' ref={bodyOverlayRef} />
       {/* navbar start */}
       <nav
-        className={`navbar navbar-area navbar-area-1 navbar-border navbar-expand-lg ${
+        className={`navbar main navbar-area navbar-area-1 navbar-border navbar-expand-lg ${
           scroll && "sticky-active"
         }`}
       >
@@ -103,7 +116,7 @@ const HeaderOne = () => {
             </a>
           </div>
           <div className='collapse navbar-collapse' id='xdyat_main_menu'>
-            <ul className='navbar-nav menu-open ps-lg-5 pe-xl-4 text-end'>
+            <ul className='navbar-nav menu-open ps-xl-5 pe-xl-4 text-end'>
               <li className='menu-item-has-children'>
                 <a className='active' href='#'>
                   Home
@@ -357,6 +370,194 @@ const HeaderOne = () => {
         </div>
       </div>
       {/* off canvas end */}
+
+      {/* Mobile Menu */}
+      <nav
+        className={`navbar mobile navbar-area navbar-area-1 navbar-border navbar-expand-lg ${
+          scroll && "sticky-active"
+        }`}
+      >
+        <div className='container nav-container px-lg-0'>
+          {/* Mobile Menu Toggle Button */}
+          <div className='responsive-mobile-menu'>
+            <button
+              className={`menu toggle-btn d-block d-lg-none ${
+                isMobileMenuOpen ? "open" : ""
+              }`}
+              onClick={handleMobileMenuToggle}
+              aria-expanded={isMobileMenuOpen}
+              aria-label='Toggle navigation'
+            >
+              <span className='icon-left'></span>
+              <span className='icon-right'></span>
+            </button>
+          </div>
+
+          {/* Logo */}
+          <div className='logo'>
+            <a href='index.html'>
+              <img src='assets/img/logo.png' alt='Logo' />
+            </a>
+          </div>
+
+          {/* Navbar Links */}
+          <div
+            className={`collapse navbar-collapse ${
+              isMobileMenuOpen ? "sopen" : ""
+            }`}
+            id='xdyat_main_menu'
+          >
+            <ul className='navbar-nav menu-open ps-lg-5 pe-xl-4 text-end'>
+              <li
+                className={`menu-item-has-children ${
+                  activeMenu === 0 ? "show" : ""
+                }`}
+              >
+                <a href='#' onClick={() => handleSubMenuToggle(0)}>
+                  Home
+                </a>
+                <ul
+                  className='sub-menu'
+                  style={{ display: activeMenu === 0 ? "block" : "none" }}
+                >
+                  <li>
+                    <a href='index.html'>Home 01</a>
+                  </li>
+                  <li>
+                    <a href='index-2.html'>Home 02</a>
+                  </li>
+                  <li>
+                    <a href='index-3.html'>Home 03</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href='about.html'>About Us</a>
+              </li>
+
+              <li
+                className={`menu-item-has-children ${
+                  activeMenu === 1 ? "show" : ""
+                }`}
+              >
+                <a href='#' onClick={() => handleSubMenuToggle(1)}>
+                  Tournament
+                </a>
+                <ul
+                  className='sub-menu'
+                  style={{ display: activeMenu === 1 ? "block" : "none" }}
+                >
+                  <li>
+                    <a href='tournament.html'>Tournament</a>
+                  </li>
+                  <li>
+                    <a href='tournament-details.html'>Tournament Details</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li
+                className={`menu-item-has-children ${
+                  activeMenu === 2 ? "show" : ""
+                }`}
+              >
+                <a href='#' onClick={() => handleSubMenuToggle(2)}>
+                  Shop
+                </a>
+                <ul
+                  className='sub-menu'
+                  style={{ display: activeMenu === 2 ? "block" : "none" }}
+                >
+                  <li>
+                    <a href='shop.html'>Shop</a>
+                  </li>
+                  <li>
+                    <a href='shop-details.html'>Shop Details</a>
+                  </li>
+                  <li>
+                    <a href='explore-product.html'>Explore Product</a>
+                  </li>
+                  <li>
+                    <a href='cart.html'>Cart</a>
+                  </li>
+                  <li>
+                    <a href='checkout.html'>Checkout</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li
+                className={`menu-item-has-children ${
+                  activeMenu === 3 ? "show" : ""
+                }`}
+              >
+                <a href='#' onClick={() => handleSubMenuToggle(3)}>
+                  Pages
+                </a>
+                <ul
+                  className='sub-menu'
+                  style={{ display: activeMenu === 3 ? "block" : "none" }}
+                >
+                  <li>
+                    <a href='blog.html'>Blog</a>
+                  </li>
+                  <li>
+                    <a href='blog-details.html'>Blog Details</a>
+                  </li>
+                  <li>
+                    <a href='service.html'>Service</a>
+                  </li>
+                  <li>
+                    <a href='team.html'>Team</a>
+                  </li>
+                  <li>
+                    <a href='contact.html'>Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          {/* Right Part of Navbar */}
+          <div className='nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center'>
+            <div className='header-search search-bar-btn d-inline-block me-3'>
+              <button>
+                <svg
+                  width='21'
+                  height='21'
+                  fill='white'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <circle cx='8.5' cy='8.5' r='8' stroke='none' />
+                  <line
+                    x1='13'
+                    y1='13'
+                    x2='19'
+                    y2='19'
+                    strokeWidth='2'
+                    stroke='white'
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <a className='header-cart' href='cart.html'>
+              <svg
+                width='24'
+                height='24'
+                fill='#25C6DA'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <circle cx='9' cy='20' r='2' />
+                <circle cx='18' cy='20' r='2' />
+                <rect x='2' y='2' width='20' height='3' />
+                <line x1='3' y1='6' x2='15' y2='15' />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
     </>
   );
 };

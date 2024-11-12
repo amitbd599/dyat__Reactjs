@@ -1,1 +1,12 @@
-
+.navbar.main {
+  display: block;
+  @media #{$md} {
+    display: none;
+  }
+}
+.navbar.mobile {
+  display: none;
+  @media #{$md} {
+    display: block;
+  }
+}

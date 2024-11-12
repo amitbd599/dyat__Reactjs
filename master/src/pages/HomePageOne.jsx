@@ -2,6 +2,7 @@ import React from "react";
 import HeaderOne from "../components/HeaderOne";
 import BannerOne from "../components/BannerOne";
 import FeatureAreaOne from "../components/FeatureAreaOne";
+import TopSellerArea from "./TopSellerArea";
 
 const HomePageOne = () => {
   return (
@@ -15,6 +16,9 @@ const HomePageOne = () => {
 
         {/* FeatureAreaOne */}
         <FeatureAreaOne />
+
+        {/* TopSellerArea */}
+        <TopSellerArea />
       </>
     </>
   );
