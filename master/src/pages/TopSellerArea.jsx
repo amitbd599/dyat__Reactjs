@@ -3,20 +3,24 @@ import Slider from "react-slick";
 
 const TopSellerArea = () => {
   const NextArrow = ({ onClick }) => (
-    <button className='array-next' onClick={onClick}>
-      <i className='fa fa-angle-left' />
-    </button>
+    <div className='array-button slider-control-round mt-md-0 mt-4'>
+      <button className='array-next' onClick={onClick}>
+        <i className='fa fa-angle-left' />
+      </button>
+    </div>
   );
 
   const PrevArrow = ({ onClick }) => (
-    <button className='array-prev' onClick={onClick}>
-      <i className='fa fa-angle-right' />
-    </button>
+    <div className='array-button slider-control-round mt-md-0 mt-4'>
+      <button className='array-prev' onClick={onClick}>
+        <i className='fa fa-angle-right' />
+      </button>
+    </div>
   );
 
   const settings = {
     spaceBetween: 30,
-    speed: 2000,
+    speed: 1000,
     loop: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
@@ -46,13 +50,12 @@ const TopSellerArea = () => {
     },
   };
   return (
-    <div className='top-seller-area pd-bottom-80'>
+    <div className='top-seller-area one pd-bottom-80'>
       <div className='container'>
         <div className='section-title d-md-flex justify-content-between align-items-center'>
           <h2 className='title move-line-3d'>
             Top Seller <span>In 1 Day</span>
           </h2>
-          <div className='array-button slider-control-round mt-md-0 mt-4'></div>
         </div>
         <div className='swiper top-seller-slider fade-slide bottom'>
           <div className='swiper-wrapper'>

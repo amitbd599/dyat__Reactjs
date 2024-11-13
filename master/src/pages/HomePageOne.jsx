@@ -3,6 +3,8 @@ import HeaderOne from "../components/HeaderOne";
 import BannerOne from "../components/BannerOne";
 import FeatureAreaOne from "../components/FeatureAreaOne";
 import TopSellerArea from "./TopSellerArea";
+import AboutAreaOne from "../components/AboutAreaOne";
+import TopAuctionAreaOne from "../components/TopAuctionAreaOne";
 
 const HomePageOne = () => {
   return (
@@ -19,6 +21,12 @@ const HomePageOne = () => {
 
         {/* TopSellerArea */}
         <TopSellerArea />
+
+        {/* AboutAreaOne */}
+        <AboutAreaOne />
+
+        {/* TopAuctionAreaOne */}
+        <TopAuctionAreaOne />
       </>
     </>
   );

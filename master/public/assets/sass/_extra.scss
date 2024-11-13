@@ -10,3 +10,17 @@
     display: block;
   }
 }
+
+.top-seller-area.one,
+.top-auction-area.one {
+  .array-prev {
+    position: absolute;
+    right: 0;
+    top: -104px;
+  }
+  .array-next {
+    position: absolute;
+    right: 60px;
+    top: -104px;
+  }
+}

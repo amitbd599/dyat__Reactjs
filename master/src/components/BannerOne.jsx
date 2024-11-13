@@ -39,7 +39,7 @@ const BannerOne = () => {
                   </span>
                 </a>
               </div>
-              <div className='list-img fade-slide bottom' data-delay='0.8'>
+              <div className='list-img fade-slide bottom'>
                 <img src='assets/img/banner/1.png' alt='img' />
               </div>
             </div>
