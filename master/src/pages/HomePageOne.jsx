@@ -9,6 +9,7 @@ import BlockChainGalleryAreaOne from "../components/BlockChainGalleryAreaOne";
 import CreatorAreaOne from "../components/CreatorAreaOne";
 import TestimonialAreaOne from "../components/TestimonialAreaOne";
 import PartnerAreaOne from "../components/PartnerAreaOne";
+import FooterAreaOne from "../components/FooterAreaOne";
 
 const HomePageOne = () => {
   return (
@@ -43,6 +44,9 @@ const HomePageOne = () => {
 
         {/* PartnerAreaOne */}
         <PartnerAreaOne />
+
+        {/* FooterAreaOne */}
+        <FooterAreaOne />
       </>
     </>
   );
