@@ -6,6 +6,8 @@ import TopSellerArea from "./TopSellerArea";
 import AboutAreaOne from "../components/AboutAreaOne";
 import TopAuctionAreaOne from "../components/TopAuctionAreaOne";
 import BlockChainGalleryAreaOne from "../components/BlockChainGalleryAreaOne";
+import CreatorAreaOne from "../components/CreatorAreaOne";
+import TestimonialAreaOne from "../components/TestimonialAreaOne";
 
 const HomePageOne = () => {
   return (
@@ -31,6 +33,12 @@ const HomePageOne = () => {
 
         {/* BlockChainGalleryAreaOne */}
         <BlockChainGalleryAreaOne />
+
+        {/* CreatorAreaOne */}
+        <CreatorAreaOne />
+
+        {/* TestimonialAreaOne */}
+        <TestimonialAreaOne />
       </>
     </>
   );
