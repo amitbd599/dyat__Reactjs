@@ -2,6 +2,11 @@ import React from "react";
 import HeaderTwo from "../components/HeaderTwo";
 import BannerTwo from "../components/BannerTwo";
 import AboutAreaTwo from "../components/AboutAreaTwo";
+import GalleryOne from "../components/GalleryOne";
+import FeatureAreaTwo from "../components/FeatureAreaTwo";
+import CreatorOne from "../components/CreatorOne";
+import TopAuctionOne from "../components/TopAuctionOne";
+import TopAdvisorsOne from "../components/TopAdvisorsOne";
 
 const HomePageTwo = () => {
   return (
@@ -14,6 +19,21 @@ const HomePageTwo = () => {
 
       {/* AboutAreaTwo */}
       <AboutAreaTwo />
+
+      {/* GalleryOne */}
+      <GalleryOne />
+
+      {/* FeatureAreaTwo */}
+      <FeatureAreaTwo />
+
+      {/* CreatorOne */}
+      <CreatorOne />
+
+      {/* TopAuctionOne */}
+      <TopAuctionOne />
+
+      {/* TopAdvisorsOne */}
+      <TopAdvisorsOne />
     </>
   );
 };

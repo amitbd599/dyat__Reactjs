@@ -30,29 +30,44 @@ const TestimonialAreaOne = () => {
     loop: true,
     arrows: false,
     slidesToShow: 4,
-    breakpoints: {
-      1499: {
-        slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 1499,
+        settings: {
+          slidesToShow: 4,
+        },
       },
-      1399: {
-        slidesToShow: 4,
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 4,
+        },
       },
-      1199: {
-        slidesToShow: 4,
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 4,
+        },
       },
-      991: {
-        slidesToShow: 3,
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+        },
       },
-      767: {
-        slidesToShow: 3,
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+        },
       },
-      575: {
-        slidesToShow: 1,
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+        },
       },
-      0: {
-        slidesToShow: 1,
-      },
-    },
+    ],
   };
   return (
     <div className='testimonial-area one pd-top-120'>

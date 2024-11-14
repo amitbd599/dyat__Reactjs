@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-const TopAuctionAreaOne = () => {
+const TopAuctionOne = () => {
   const NextArrow = ({ onClick }) => (
     <div className='array-button slider-control-round text-md-end'>
       <button className='array-next' onClick={onClick}>
@@ -19,8 +19,7 @@ const TopAuctionAreaOne = () => {
   );
 
   const settings = {
-    spaceBetween: 30,
-    speed: 1000,
+    speed: 500,
     loop: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
@@ -69,7 +68,7 @@ const TopAuctionAreaOne = () => {
       <div className='container'>
         <div className='section-title'>
           <div className='row'>
-            <div className='col-lg-6 col-md-8'>
+            <div className='col-lg-6'>
               <h6 className='sub-title split_chars'>top Auction</h6>
               <h2 className='title move-line-3d'>Limited Auction</h2>
             </div>
@@ -84,14 +83,14 @@ const TopAuctionAreaOne = () => {
                     <img src='assets/img/top-auction/1.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Lune Studio</a>
-                      <i className='fas fa-heart' />
+                    <h5 className='tt-uppercase d-flex justify-content-between align-items-center mb-3'>
+                      Lune Studio
+                      <i className='far fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <a href='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
@@ -113,14 +112,14 @@ const TopAuctionAreaOne = () => {
                     <img src='assets/img/top-auction/2.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Aune Studio</a>
-                      <i className='fas fa-heart' />
+                    <h5 className='tt-uppercase d-flex justify-content-between align-items-center mb-3'>
+                      Sone Studio
+                      <i className='far fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <a href='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
@@ -142,14 +141,14 @@ const TopAuctionAreaOne = () => {
                     <img src='assets/img/top-auction/3.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Quae Studio</a>
-                      <i className='fas fa-heart' />
+                    <h5 className='tt-uppercase d-flex justify-content-between align-items-center mb-3'>
+                      Doe Studio
+                      <i className='far fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <a href='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
@@ -171,14 +170,14 @@ const TopAuctionAreaOne = () => {
                     <img src='assets/img/top-auction/4.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Lune Studio</a>
-                      <i className='fas fa-heart' />
+                    <h5 className='tt-uppercase d-flex justify-content-between align-items-center mb-3'>
+                      Robt Studio
+                      <i className='far fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <a href='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
@@ -202,4 +201,4 @@ const TopAuctionAreaOne = () => {
   );
 };
 
-export default TopAuctionAreaOne;
+export default TopAuctionOne;

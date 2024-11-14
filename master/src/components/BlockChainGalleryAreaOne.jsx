@@ -11,29 +11,44 @@ const BlockChainGalleryAreaOne = () => {
     loop: true,
     slidesToShow: 5,
     arrows: false,
-    breakpoints: {
-      1499: {
-        slidesToShow: 5,
+    responsive: [
+      {
+        breakpoint: 1499,
+        settings: {
+          slidesToShow: 5,
+        },
       },
-      1399: {
-        slidesToShow: 5,
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 5,
+        },
       },
-      1199: {
-        slidesToShow: 3,
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 3,
+        },
       },
-      991: {
-        slidesToShow: 2,
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        },
       },
-      767: {
-        slidesToShow: 2,
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+        },
       },
-      575: {
-        slidesToShow: 1,
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+        },
       },
-      0: {
-        slidesToShow: 1,
-      },
-    },
+    ],
   };
   return (
     <div className='block-chain-gallery-area one pd-bottom-120'>

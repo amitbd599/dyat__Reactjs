@@ -25,29 +25,44 @@ const TopSellerAreaOne = () => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     slidesToShow: 3,
-    breakpoints: {
-      1499: {
-        slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 1499,
+        settings: {
+          slidesToShow: 3,
+        },
       },
-      1399: {
-        slidesToShow: 3,
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 3,
+        },
       },
-      1199: {
-        slidesToShow: 3,
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 3,
+        },
       },
-      991: {
-        slidesToShow: 2,
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        },
       },
-      767: {
-        slidesToShow: 2,
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+        },
       },
-      575: {
-        slidesToShow: 1,
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+        },
       },
-      0: {
-        slidesToShow: 1,
-      },
-    },
+    ],
   };
   return (
     <div className='top-seller-area one pd-bottom-80'>
