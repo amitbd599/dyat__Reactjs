@@ -7,6 +7,7 @@ import FeatureAreaTwo from "../components/FeatureAreaTwo";
 import CreatorOne from "../components/CreatorOne";
 import TopAuctionOne from "../components/TopAuctionOne";
 import TopAdvisorsOne from "../components/TopAdvisorsOne";
+import PlatformOne from "../components/PlatformOne";
 
 const HomePageTwo = () => {
   return (
@@ -34,6 +35,9 @@ const HomePageTwo = () => {
 
       {/* TopAdvisorsOne */}
       <TopAdvisorsOne />
+
+      {/* PlatformOne */}
+      <PlatformOne />
     </>
   );
 };

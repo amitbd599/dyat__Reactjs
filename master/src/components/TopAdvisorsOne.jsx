@@ -65,7 +65,7 @@ const TopAdvisorsOne = () => {
   };
   return (
     <div
-      className='top-advisors-area pd-top-120 pd-bottom-90 bg-cover'
+      className='top-advisors-area one pd-top-120 pd-bottom-90 bg-cover'
       style={{ backgroundImage: 'url("assets/img/creator/bg2.png")' }}
     >
       <div className='container'>
@@ -74,16 +74,6 @@ const TopAdvisorsOne = () => {
             <div className='col-lg-6'>
               <h6 className='sub-title split_chars'>Team &amp; Advisors</h6>
               <h2 className='title move-line-3d'>Crypto Expart Advisors</h2>
-            </div>
-            <div className='col-lg-6 align-self-center mt-md-0 mt-4'>
-              <div className='array-button slider-control-round  text-lg-end'>
-                <button className='array-prev-advisors'>
-                  <i className='fa fa-angle-left' />
-                </button>
-                <button className='array-next-advisors'>
-                  <i className='fa fa-angle-right' />
-                </button>
-              </div>
             </div>
           </div>
         </div>

@@ -72,7 +72,7 @@ const TopSellerAreaOne = () => {
             Top Seller <span>In 1 Day</span>
           </h2>
         </div>
-        <div className='swiper top-seller-slider fade-slide bottom'>
+        <div className='swiper top-seller-slider one fade-slide bottom'>
           <div className='swiper-wrapper'>
             <Slider {...settings}>
               <div className='swiper-slide px-3'>
