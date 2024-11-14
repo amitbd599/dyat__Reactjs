@@ -8,6 +8,8 @@ import CreatorOne from "../components/CreatorOne";
 import TopAuctionOne from "../components/TopAuctionOne";
 import TopAdvisorsOne from "../components/TopAdvisorsOne";
 import PlatformOne from "../components/PlatformOne";
+import InstagramAreaOne from "../components/InstagramAreaOne";
+import FooterTwo from "../components/FooterTwo";
 
 const HomePageTwo = () => {
   return (
@@ -38,6 +40,12 @@ const HomePageTwo = () => {
 
       {/* PlatformOne */}
       <PlatformOne />
+
+      {/* InstagramAreaOne */}
+      <InstagramAreaOne />
+
+      {/* FooterTwo */}
+      <FooterTwo />
     </>
   );
 };
