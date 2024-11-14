@@ -2,7 +2,6 @@ import React from "react";
 import HeaderOne from "../components/HeaderOne";
 import BannerOne from "../components/BannerOne";
 import FeatureAreaOne from "../components/FeatureAreaOne";
-import TopSellerArea from "./TopSellerArea";
 import AboutAreaOne from "../components/AboutAreaOne";
 import TopAuctionAreaOne from "../components/TopAuctionAreaOne";
 import BlockChainGalleryAreaOne from "../components/BlockChainGalleryAreaOne";
@@ -10,6 +9,7 @@ import CreatorAreaOne from "../components/CreatorAreaOne";
 import TestimonialAreaOne from "../components/TestimonialAreaOne";
 import PartnerAreaOne from "../components/PartnerAreaOne";
 import FooterAreaOne from "../components/FooterAreaOne";
+import TopSellerAreaOne from "../components/TopSellerAreaOne";
 
 const HomePageOne = () => {
   return (
@@ -24,8 +24,8 @@ const HomePageOne = () => {
         {/* FeatureAreaOne */}
         <FeatureAreaOne />
 
-        {/* TopSellerArea */}
-        <TopSellerArea />
+        {/* TopSellerAreaOne */}
+        <TopSellerAreaOne />
 
         {/* AboutAreaOne */}
         <AboutAreaOne />

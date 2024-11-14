@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const HeaderOne = () => {
   const [scroll, setScroll] = useState(false);
+  const [sidebar, SetSidebar] = useState(false);
 
   useEffect(() => {
     window.onscroll = () => {
@@ -63,6 +64,11 @@ const HeaderOne = () => {
   // Toggle mobile menu
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  // Toggle mobile menu
+  const handleSidebarToggle = () => {
+    SetSidebar(!sidebar);
   };
 
   // Toggle sub-menu
@@ -294,7 +300,9 @@ const HeaderOne = () => {
       {/* navbar end */}
       {/* off canvas */}
       <div
-        className='offcanvas offcanvas-menu-wrap offcanvas-end'
+        className={`offcanvas offcanvas-menu-wrap offcanvas-end ${
+          sidebar && "show"
+        }`}
         tabIndex={-1}
         id='offcanvasright'
         ref={sidebarMenuRef}

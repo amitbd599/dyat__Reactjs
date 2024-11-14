@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-const TopSellerArea = () => {
+const TopSellerAreaOne = () => {
   const NextArrow = ({ onClick }) => (
     <div className='array-button slider-control-round mt-md-0 mt-4'>
       <button className='array-next' onClick={onClick}>
@@ -176,4 +176,4 @@ const TopSellerArea = () => {
   );
 };
 
-export default TopSellerArea;
+export default TopSellerAreaOne;
