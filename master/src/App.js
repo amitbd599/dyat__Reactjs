@@ -6,6 +6,7 @@ import HomePageOne from "./pages/HomePageOne";
 import ReactLenisInit from "./helper/ReactLenisInit";
 import CustomCursor from "./helper/CustomCursor";
 import { useEffect } from "react";
+import HomePageTwo from "./pages/HomePageTwo";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
 
       <Routes>
         <Route exact path='/' element={<HomePageOne />} />
+        <Route exact path='/index-2' element={<HomePageTwo />} />
       </Routes>
     </BrowserRouter>
   );
