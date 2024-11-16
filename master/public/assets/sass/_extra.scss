@@ -72,3 +72,21 @@
   gap: 6px;
   justify-content: center;
 }
+
+.qty-button.custom {
+  cursor: pointer;
+  padding: 0px 4px;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.product-cart-inner .media-body .quantity .input-text {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+  border: 0;
+  padding-left: 35px;
+  text-align: center;
+  width: 70px;
+}
