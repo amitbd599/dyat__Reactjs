@@ -15,6 +15,7 @@ import CartPage from "./pages/CartPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import ContactPage from "./pages/ContactPage";
 import CreateItemPage from "./pages/CreateItemPage";
+import CreatorDetailsPage from "./pages/CreatorDetailsPage";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route exact path='/checkout' element={<CheckoutPage />} />
         <Route exact path='/contact' element={<ContactPage />} />
         <Route exact path='/create-item' element={<CreateItemPage />} />
+        <Route exact path='/creator-details' element={<CreatorDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );
