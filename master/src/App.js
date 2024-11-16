@@ -9,6 +9,7 @@ import AboutPage from "./pages/AboutPage";
 import AuctionPage from "./pages/AuctionPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
 import BlogGridPage from "./pages/BlogGridPage";
+import BlogListPage from "./pages/BlogListPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/auction' element={<AuctionPage />} />
         <Route exact path='/blog-details' element={<BlogDetailsPage />} />
         <Route exact path='/blog-grid' element={<BlogGridPage />} />
+        <Route exact path='/blog-list' element={<BlogListPage />} />
       </Routes>
     </BrowserRouter>
   );
