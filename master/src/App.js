@@ -24,6 +24,7 @@ import LoginPage from "./pages/LoginPage";
 import ServiceDetailsPage from "./pages/ServiceDetailsPage";
 import ServicePage from "./pages/ServicePage";
 import ShopDetailsPage from "./pages/ShopDetailsPage";
+import ShopPage from "./pages/ShopPage";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
         <Route exact path='/service-details' element={<ServiceDetailsPage />} />
         <Route exact path='/service' element={<ServicePage />} />
         <Route exact path='/shop-details' element={<ShopDetailsPage />} />
+        <Route exact path='/shop' element={<ShopPage />} />
         <Route exact path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
