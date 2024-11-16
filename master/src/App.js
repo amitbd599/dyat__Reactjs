@@ -3,12 +3,14 @@ import RouteScrollToTop from "./helper/RouteScrollToTop";
 import HomePageOne from "./pages/HomePageOne";
 import CustomCursor from "./helper/CustomCursor";
 import HomePageTwo from "./pages/HomePageTwo";
+import BackToTop from "./helper/BackToTop";
 
 function App() {
   return (
     <BrowserRouter>
       <RouteScrollToTop />
       <CustomCursor />
+      <BackToTop />
 
       <Routes>
         <Route exact path='/' element={<HomePageOne />} />
