@@ -7,6 +7,7 @@ import BackToTop from "./helper/BackToTop";
 import HomePageThree from "./pages/HomePageThree";
 import AboutPage from "./pages/AboutPage";
 import AuctionPage from "./pages/AuctionPage";
+import BlogDetailsPage from "./pages/BlogDetailsPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/index-3' element={<HomePageThree />} />
         <Route exact path='/about' element={<AboutPage />} />
         <Route exact path='/auction' element={<AuctionPage />} />
+        <Route exact path='/blog-details' element={<BlogDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );
