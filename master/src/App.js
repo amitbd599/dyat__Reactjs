@@ -17,6 +17,7 @@ import ContactPage from "./pages/ContactPage";
 import CreateItemPage from "./pages/CreateItemPage";
 import CreatorDetailsPage from "./pages/CreatorDetailsPage";
 import CreatorsPage from "./pages/CreatorsPage";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route exact path='/create-item' element={<CreateItemPage />} />
         <Route exact path='/creator-details' element={<CreatorDetailsPage />} />
         <Route exact path='/creators' element={<CreatorsPage />} />
+        <Route exact path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
