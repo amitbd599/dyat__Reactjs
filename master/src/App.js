@@ -28,6 +28,7 @@ import ShopPage from "./pages/ShopPage";
 import TeamDetailsPage from "./pages/TeamDetailsPage";
 import TeamPage from "./pages/TeamPage";
 import TournamentDetailsPage from "./pages/TournamentDetailsPage";
+import TournamentPage from "./pages/TournamentPage";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           path='/tournament-details'
           element={<TournamentDetailsPage />}
         />
+        <Route exact path='/tournament' element={<TournamentPage />} />
         <Route exact path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
