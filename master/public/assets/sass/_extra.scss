@@ -50,3 +50,25 @@
 .back-to-top {
   display: block;
 }
+
+.video-autoplay-area {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-autoplay {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.single-product-inner .details .ratting {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 
-const FooterAreaOne = () => {
+const FooterThree = () => {
   return (
     <footer
-      className='footer-area footer-area-1 pd-top-110'
+      className='footer-area footer-area-1 pd-top-110 mt--35'
       style={{ backgroundImage: 'url("./assets/img/footer/bg.png")' }}
     >
       <div className='container'>
@@ -62,7 +62,7 @@ const FooterAreaOne = () => {
                   <input type='text' placeholder='info@yourmail.com' />
                 </div>
                 <div className='btn-box d-inline-block'>
-                  <button className='btn btn-main style-small'>
+                  <button type='submit' className='btn btn-main style-small'>
                     <span>
                       <span>Subscribe</span>
                     </span>
@@ -78,39 +78,21 @@ const FooterAreaOne = () => {
                 <ul>
                   <li>
                     <img src='assets/img/footer/1.png' alt='img' />
-                    <a href='#'>
-                      <i className='fab fa-instagram' />
-                    </a>
                   </li>
                   <li>
                     <img src='assets/img/footer/2.png' alt='img' />
-                    <a href='#'>
-                      <i className='fab fa-instagram' />
-                    </a>
                   </li>
                   <li>
                     <img src='assets/img/footer/3.png' alt='img' />
-                    <a href='#'>
-                      <i className='fab fa-instagram' />
-                    </a>
                   </li>
                   <li>
                     <img src='assets/img/footer/4.png' alt='img' />
-                    <a href='#'>
-                      <i className='fab fa-instagram' />
-                    </a>
                   </li>
                   <li>
                     <img src='assets/img/footer/5.png' alt='img' />
-                    <a href='#'>
-                      <i className='fab fa-instagram' />
-                    </a>
                   </li>
                   <li>
                     <img src='assets/img/footer/6.png' alt='img' />
-                    <a href='#'>
-                      <i className='fab fa-instagram' />
-                    </a>
                   </li>
                 </ul>
               </div>
@@ -134,4 +116,4 @@ const FooterAreaOne = () => {
   );
 };
 
-export default FooterAreaOne;
+export default FooterThree;
