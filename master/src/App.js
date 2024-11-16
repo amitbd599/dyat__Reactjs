@@ -5,6 +5,7 @@ import CustomCursor from "./helper/CustomCursor";
 import HomePageTwo from "./pages/HomePageTwo";
 import BackToTop from "./helper/BackToTop";
 import HomePageThree from "./pages/HomePageThree";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/' element={<HomePageOne />} />
         <Route exact path='/index-2' element={<HomePageTwo />} />
         <Route exact path='/index-3' element={<HomePageThree />} />
+        <Route exact path='/about' element={<AboutPage />} />
       </Routes>
     </BrowserRouter>
   );
