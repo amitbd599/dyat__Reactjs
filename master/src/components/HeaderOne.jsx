@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const HeaderOne = () => {
   const [scroll, setScroll] = useState(false);
-  const [sidebar, SetSidebar] = useState(false);
 
   useEffect(() => {
     window.onscroll = () => {
@@ -66,11 +66,6 @@ const HeaderOne = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  // Toggle mobile menu
-  const handleSidebarToggle = () => {
-    SetSidebar(!sidebar);
-  };
-
   // Toggle sub-menu
   const handleSubMenuToggle = (index) => {
     setActiveMenu(activeMenu === index ? null : index);
@@ -83,7 +78,7 @@ const HeaderOne = () => {
         id='td-search-popup'
         ref={searchPopupRef}
       >
-        <form action='index.html' className='search-form'>
+        <form action='index' className='search-form'>
           <div className='form-group'>
             <input
               type='text'
@@ -117,119 +112,143 @@ const HeaderOne = () => {
             </button>
           </div>
           <div className='logo'>
-            <a href='index.html'>
+            <Link to='/'>
               <img src='assets/img/logo.png' alt='img' />
-            </a>
+            </Link>
           </div>
           <div className='collapse navbar-collapse' id='xdyat_main_menu'>
             <ul className='navbar-nav menu-open ps-xl-5 pe-xl-4 text-end'>
               <li className='menu-item-has-children'>
-                <a className='active' href='#'>
+                <Link className='active' to='/#'>
                   Home
-                </a>
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a className='current' href='index.html'>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/'
+                    >
                       Home 01
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='index-2.html'>Home 02</a>
+                    <NavLink
+                      to='/index-2'
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                    >
+                      Home 02
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='index-3.html'>Home 03</a>
+                    <NavLink
+                      to='/index-3'
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                    >
+                      Home 03
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href='about.html'>About Us</a>
+                <NavLink
+                  to='/about'
+                  className={(navData) => navData.isActive && "active"}
+                >
+                  About Us
+                </NavLink>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Tournament</a>
+                <Link to='/#'>Tournament</Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='tournament.html'>Tournament</a>
+                    <Link to='/tournament'>Tournament</Link>
                   </li>
                   <li>
-                    <a href='tournament-details.html'>Tournament Details</a>
+                    <Link to='/tournament-details'>Tournament Details</Link>
                   </li>
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Shop</a>
+                <Link to='/#'>Shop</Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='shop.html'>Shop</a>
+                    <Link to='/shop'>Shop</Link>
                   </li>
                   <li>
-                    <a href='shop-details.html'>Shop Details</a>
+                    <Link to='/shop-details'>Shop Details</Link>
                   </li>
                   <li>
-                    <a href='explore-product.html'>Explore product</a>
+                    <Link to='/explore-product'>Explore product</Link>
                   </li>
                   <li>
-                    <a href='cart.html'>Cart</a>
+                    <Link to='/cart'>Cart</Link>
                   </li>
                   <li>
-                    <a href='checkout.html'>Checkout</a>
+                    <Link to='/checkout'>Checkout</Link>
                   </li>
                 </ul>
               </li>
               <li className='menu-item-has-children dropdown-sub-menu'>
-                <a href='#'>Pages</a>
+                <Link to='/#'>Pages</Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='blog.html'>Blog</a>
+                    <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
-                    <a href='blog-list.html'>Blog List</a>
+                    <Link to='/blog-list'>Blog List</Link>
                   </li>
                   <li>
-                    <a href='blog-grid.html'>Blog Grid</a>
+                    <Link to='/blog-grid'>Blog Grid</Link>
                   </li>
                   <li>
-                    <a href='blog-details.html'>Blog Details</a>
+                    <Link to='/blog-details'>Blog Details</Link>
                   </li>
                   <li>
-                    <a href='create-item.html'>Create Items</a>
+                    <Link to='/create-item'>Create Items</Link>
                   </li>
                   <li>
-                    <a href='creators.html'>Creators</a>
+                    <Link to='/creators'>Creators</Link>
                   </li>
                   <li>
-                    <a href='creator-details.html'>Creator details</a>
+                    <Link to='/creator-details'>Creator details</Link>
                   </li>
                   <li>
-                    <a href='service.html'>service</a>
+                    <Link to='/service'>service</Link>
                   </li>
                   <li>
-                    <a href='service-details.html'>Service Details</a>
+                    <Link to='/service-details'>Service Details</Link>
                   </li>
                   <li>
-                    <a href='team.html'>team</a>
+                    <Link to='/team'>team</Link>
                   </li>
                   <li>
-                    <a href='team-details.html'>team Details</a>
+                    <Link to='/team-details'>team Details</Link>
                   </li>
                   <li>
-                    <a href='auction.html'>Auction</a>
+                    <Link to='/auction'>Auction</Link>
                   </li>
                   <li>
-                    <a href='help-center.html'>Help Center</a>
+                    <Link to='/help-center'>Help Center</Link>
                   </li>
                   <li>
-                    <a href='login.html'>Login</a>
+                    <Link to='/login'>Login</Link>
                   </li>
                   <li>
-                    <a href='wallet.html'>Wallet</a>
+                    <Link to='/wallet'>Wallet</Link>
                   </li>
                   <li>
-                    <a href='error.html'>404</a>
+                    <Link to='/error'>404</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href='contact.html'>Contact Us</a>
+                <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -250,7 +269,7 @@ const HeaderOne = () => {
                 </svg>
               </button>
             </div>
-            <a className='header-cart' href='cart.html'>
+            <Link className='header-cart' to='/cart'>
               <svg
                 width={24}
                 height={24}
@@ -263,7 +282,7 @@ const HeaderOne = () => {
                   fill='#25C6DA'
                 />
               </svg>
-            </a>
+            </Link>
             <div className='btn-box d-inline-block'>
               <button
                 className='me-3 header-menu-toggle bg-transparent border-0 shadow-0'
@@ -285,14 +304,14 @@ const HeaderOne = () => {
                   />
                 </svg>
               </button>
-              <a className='btn btn-main style-small' href='#'>
+              <Link className='btn btn-main style-small' to='/#'>
                 <span>
                   <span>
                     <img src='assets/img/btn-arrow.png' alt='img' />~
                   </span>
                   <span>connect</span>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -300,9 +319,7 @@ const HeaderOne = () => {
       {/* navbar end */}
       {/* off canvas */}
       <div
-        className={`offcanvas offcanvas-menu-wrap offcanvas-end ${
-          sidebar && "show"
-        }`}
+        className='offcanvas offcanvas-menu-wrap offcanvas-end'
         tabIndex={-1}
         id='offcanvasright'
         ref={sidebarMenuRef}
@@ -354,24 +371,24 @@ const HeaderOne = () => {
             </div>
             <ul className='social-media social-media-light'>
               <li>
-                <a href='#'>
+                <Link to='/#'>
                   <i className='fab fa-facebook-f' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#'>
+                <Link to='/#'>
                   <i className='fab fa-twitter' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#'>
+                <Link to='/#'>
                   <i className='fab fa-instagram' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#'>
+                <Link to='/#'>
                   <i className='fab fa-pinterest' />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -403,9 +420,9 @@ const HeaderOne = () => {
 
           {/* Logo */}
           <div className='logo'>
-            <a href='index.html'>
+            <Link to='/'>
               <img src='assets/img/logo.png' alt='Logo' />
-            </a>
+            </Link>
           </div>
 
           {/* Navbar Links */}
@@ -421,27 +438,27 @@ const HeaderOne = () => {
                   activeMenu === 0 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(0)}>
+                <Link to='/#' onClick={() => handleSubMenuToggle(0)}>
                   Home
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 0 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='index.html'>Home 01</a>
+                    <Link to='/'>Home 01</Link>
                   </li>
                   <li>
-                    <a href='index-2.html'>Home 02</a>
+                    <Link to='/index-2'>Home 02</Link>
                   </li>
                   <li>
-                    <a href='index-3.html'>Home 03</a>
+                    <Link to='/index-3'>Home 03</Link>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <a href='about.html'>About Us</a>
+                <Link to='/about'>About Us</Link>
               </li>
 
               <li
@@ -449,18 +466,18 @@ const HeaderOne = () => {
                   activeMenu === 1 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(1)}>
+                <Link to='/#' onClick={() => handleSubMenuToggle(1)}>
                   Tournament
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 1 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='tournament.html'>Tournament</a>
+                    <Link to='/tournament'>Tournament</Link>
                   </li>
                   <li>
-                    <a href='tournament-details.html'>Tournament Details</a>
+                    <Link to='/tournament-details'>Tournament Details</Link>
                   </li>
                 </ul>
               </li>
@@ -470,27 +487,27 @@ const HeaderOne = () => {
                   activeMenu === 2 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(2)}>
+                <Link to='/#' onClick={() => handleSubMenuToggle(2)}>
                   Shop
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 2 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='shop.html'>Shop</a>
+                    <Link to='/shop'>Shop</Link>
                   </li>
                   <li>
-                    <a href='shop-details.html'>Shop Details</a>
+                    <Link to='/shop-details'>Shop Details</Link>
                   </li>
                   <li>
-                    <a href='explore-product.html'>Explore Product</a>
+                    <Link to='/explore-product'>Explore Product</Link>
                   </li>
                   <li>
-                    <a href='cart.html'>Cart</a>
+                    <Link to='/cart'>Cart</Link>
                   </li>
                   <li>
-                    <a href='checkout.html'>Checkout</a>
+                    <Link to='/checkout'>Checkout</Link>
                   </li>
                 </ul>
               </li>
@@ -500,27 +517,27 @@ const HeaderOne = () => {
                   activeMenu === 3 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(3)}>
+                <Link to='/#' onClick={() => handleSubMenuToggle(3)}>
                   Pages
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 3 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='blog.html'>Blog</a>
+                    <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
-                    <a href='blog-details.html'>Blog Details</a>
+                    <Link to='/blog-details'>Blog Details</Link>
                   </li>
                   <li>
-                    <a href='service.html'>Service</a>
+                    <Link to='/service'>Service</Link>
                   </li>
                   <li>
-                    <a href='team.html'>Team</a>
+                    <Link to='/team'>Team</Link>
                   </li>
                   <li>
-                    <a href='contact.html'>Contact Us</a>
+                    <Link to='/contact'>Contact Us</Link>
                   </li>
                 </ul>
               </li>
@@ -550,7 +567,7 @@ const HeaderOne = () => {
               </button>
             </div>
 
-            <a className='header-cart' href='cart.html'>
+            <Link className='header-cart' to='/cart'>
               <svg
                 width='24'
                 height='24'
@@ -562,7 +579,7 @@ const HeaderOne = () => {
                 <rect x='2' y='2' width='20' height='3' />
                 <line x1='3' y1='6' x2='15' y2='15' />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
