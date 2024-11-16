@@ -22,6 +22,7 @@ import ExploreProductPage from "./pages/ExploreProductPage";
 import HelpCenterPage from "./pages/HelpCenterPage";
 import LoginPage from "./pages/LoginPage";
 import ServiceDetailsPage from "./pages/ServiceDetailsPage";
+import ServicePage from "./pages/ServicePage";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route exact path='/help-center' element={<HelpCenterPage />} />
         <Route exact path='/login' element={<LoginPage />} />
         <Route exact path='/service-details' element={<ServiceDetailsPage />} />
+        <Route exact path='/service' element={<ServicePage />} />
         <Route exact path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

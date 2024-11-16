@@ -3,7 +3,7 @@ import React from "react";
 const CreatorOne = () => {
   return (
     <div
-      className='creator-area pd-top-120 pd-bottom-100 bg-cover'
+      className='creator-area service pd-top-120 pd-bottom-100 bg-cover'
       style={{ backgroundImage: 'url("assets/img/creator/bg2.png")' }}
     >
       <div className='container'>
