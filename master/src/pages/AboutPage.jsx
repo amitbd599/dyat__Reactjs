@@ -13,7 +13,7 @@ const AboutPage = () => {
       <HeaderTwo />
 
       {/* BreadcrumbOne */}
-      <BreadcrumbOne />
+      <BreadcrumbOne title='about' theme='us' inner='about us' />
 
       {/* AboutInnerOne */}
       <AboutAreaThree />

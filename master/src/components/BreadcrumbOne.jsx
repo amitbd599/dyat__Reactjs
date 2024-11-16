@@ -1,6 +1,6 @@
 import React from "react";
 
-const BreadcrumbOne = () => {
+const BreadcrumbOne = ({ title, theme, inner }) => {
   return (
     <div
       className='breadcrumb-area bg-cover'
@@ -9,13 +9,13 @@ const BreadcrumbOne = () => {
       <div className='container'>
         <div className='breadcrumb-inner'>
           <h2 className='page-title'>
-            about <span>us</span>
+            {title} <span>{theme}</span>
           </h2>
           <ul className='page-list'>
             <li>
               <a href='index.html'>Home</a>
             </li>
-            <li>About Us</li>
+            <li>{inner}</li>
           </ul>
         </div>
       </div>
