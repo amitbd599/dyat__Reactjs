@@ -12,6 +12,7 @@ import BlogGridPage from "./pages/BlogGridPage";
 import BlogListPage from "./pages/BlogListPage";
 import BlogPage from "./pages/BlogPage";
 import CartPage from "./pages/CartPage";
+import CheckoutPage from "./pages/CheckoutPage";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route exact path='/blog-list' element={<BlogListPage />} />
         <Route exact path='/blog' element={<BlogPage />} />
         <Route exact path='/cart' element={<CartPage />} />
+        <Route exact path='/checkout' element={<CheckoutPage />} />
       </Routes>
     </BrowserRouter>
   );
