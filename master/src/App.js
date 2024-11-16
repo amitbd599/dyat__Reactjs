@@ -18,6 +18,7 @@ import CreateItemPage from "./pages/CreateItemPage";
 import CreatorDetailsPage from "./pages/CreatorDetailsPage";
 import CreatorsPage from "./pages/CreatorsPage";
 import ErrorPage from "./pages/ErrorPage";
+import ExploreProductPage from "./pages/ExploreProductPage";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route exact path='/create-item' element={<CreateItemPage />} />
         <Route exact path='/creator-details' element={<CreatorDetailsPage />} />
         <Route exact path='/creators' element={<CreatorsPage />} />
+        <Route exact path='/explore-product' element={<ExploreProductPage />} />
         <Route exact path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
