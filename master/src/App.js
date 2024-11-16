@@ -23,6 +23,7 @@ import HelpCenterPage from "./pages/HelpCenterPage";
 import LoginPage from "./pages/LoginPage";
 import ServiceDetailsPage from "./pages/ServiceDetailsPage";
 import ServicePage from "./pages/ServicePage";
+import ShopDetailsPage from "./pages/ShopDetailsPage";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Route exact path='/login' element={<LoginPage />} />
         <Route exact path='/service-details' element={<ServiceDetailsPage />} />
         <Route exact path='/service' element={<ServicePage />} />
+        <Route exact path='/shop-details' element={<ShopDetailsPage />} />
         <Route exact path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

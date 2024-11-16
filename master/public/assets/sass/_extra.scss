@@ -110,3 +110,14 @@
   background-image: none !important;
   padding-bottom: 0;
 }
+.product-details-area.inner {
+  .product-details-wrap {
+    display: flex;
+    gap: 20px;
+  }
+}
+.ratting.inner {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
