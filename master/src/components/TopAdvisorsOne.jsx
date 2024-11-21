@@ -1,28 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 
 const TopAdvisorsOne = () => {
-  const NextArrow = ({ onClick }) => (
-    <div className='array-button slider-control-round text-md-end'>
-      <button className='array-next' onClick={onClick}>
-        <i className='fa fa-angle-left' />
-      </button>
-    </div>
-  );
-
-  const PrevArrow = ({ onClick }) => (
-    <div className='array-button slider-control-round text-md-end'>
-      <button className='array-prev' onClick={onClick}>
-        <i className='fa fa-angle-right' />
-      </button>
-    </div>
-  );
+  const sliderRef = useRef(null);
 
   const settings = {
     speed: 500,
     loop: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    arrows: false,
     slidesToShow: 4,
     responsive: [
       {
@@ -73,14 +58,30 @@ const TopAdvisorsOne = () => {
           <div className='row'>
             <div className='col-lg-6'>
               <h6 className='sub-title split_chars'>Team &amp; Advisors</h6>
-              <h2 className='title move-line-3d'>Crypto Expart Advisors</h2>
+              <h2 className='title move-line-3d'>Crypto Expert Advisors</h2>
+            </div>
+            <div className='col-lg-6 align-self-center mt-md-0 mt-4'>
+              <div className='array-button slider-control-round  text-lg-end'>
+                <button
+                  className='array-prev-advisors'
+                  onClick={() => sliderRef.current.slickPrev()}
+                >
+                  <i className='fa fa-angle-left' />
+                </button>
+                <button
+                  className='array-next-advisors'
+                  onClick={() => sliderRef.current.slickNext()}
+                >
+                  <i className='fa fa-angle-right' />
+                </button>
+              </div>
             </div>
           </div>
         </div>
         <div className='swiper advisors-slider'>
-          <div className='swiper-wrapper'>
-            <Slider {...settings}>
-              <div className='swiper-slide px-3'>
+          <div className='swiper-wrapper_inner'>
+            <Slider ref={sliderRef} {...settings}>
+              <div className='swiper-slide'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/team/1.png' alt='img' />
@@ -104,7 +105,7 @@ const TopAdvisorsOne = () => {
                   </div>
                 </div>
               </div>
-              <div className='swiper-slide px-3'>
+              <div className='swiper-slide'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/team/1.png' alt='img' />
@@ -128,7 +129,7 @@ const TopAdvisorsOne = () => {
                   </div>
                 </div>
               </div>
-              <div className='swiper-slide px-3'>
+              <div className='swiper-slide'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/team/2.png' alt='img' />
@@ -152,7 +153,7 @@ const TopAdvisorsOne = () => {
                   </div>
                 </div>
               </div>
-              <div className='swiper-slide px-3'>
+              <div className='swiper-slide'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/team/3.png' alt='img' />
@@ -176,7 +177,7 @@ const TopAdvisorsOne = () => {
                   </div>
                 </div>
               </div>
-              <div className='swiper-slide px-3'>
+              <div className='swiper-slide'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/team/4.png' alt='img' />

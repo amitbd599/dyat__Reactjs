@@ -1,28 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 
 const TestimonialAreaOne = () => {
-  const NextArrow = ({ onClick }) => (
-    <div className='array-button slider-control-round text-md-end'>
-      <button className='array-next' onClick={onClick}>
-        <i className='fa fa-angle-left' />
-      </button>
-    </div>
-  );
-
-  const PrevArrow = ({ onClick }) => (
-    <div className='array-button slider-control-round text-md-end'>
-      <button className='array-prev' onClick={onClick}>
-        <i className='fa fa-angle-right' />
-      </button>
-    </div>
-  );
+  const sliderRef = useRef(null);
 
   const settings = {
     speed: 500,
     loop: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    arrows: false,
     slidesToShow: 1,
   };
   const settings_1 = {
@@ -80,11 +65,27 @@ const TestimonialAreaOne = () => {
                 our client <span>feedback</span>
               </h2>
             </div>
+            <div className='col-lg-6 d-lg-block d-none'>
+              <div className='array-button slider-control-round  text-lg-end'>
+                <button
+                  className='array1-prev me-0'
+                  onClick={() => sliderRef.current.slickPrev()}
+                >
+                  <i className='fa fa-angle-left' />
+                </button>
+                <button
+                  className='array1-next'
+                  onClick={() => sliderRef.current.slickNext()}
+                >
+                  <i className='fa fa-angle-right' />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div className='swiper mySwiper2'>
-          <div className='swiper-wrapper'>
-            <Slider {...settings}>
+          <div className='swiper-wrapper_inner'>
+            <Slider ref={sliderRef} {...settings}>
               <div className='swiper-slide'>
                 <div className='feedback-inner'>
                   <img src='assets/img/testimonial/1.png' alt='img' />
@@ -149,7 +150,7 @@ const TestimonialAreaOne = () => {
           </div>
         </div>
         <div className='swiper mySwiper feedback-list-slider'>
-          <div className='swiper-wrapper'>
+          <div className='swiper-wrapper_inner'>
             <Slider {...settings_1}>
               <div className='swiper-slide'>
                 <div className='feedback-list'>

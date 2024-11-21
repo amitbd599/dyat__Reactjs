@@ -41,7 +41,7 @@ const CreatorDetails = () => {
                     <h6 className='d-block mb-0'>Bidding Price: $66.25</h6>
                   </div>
                   <div className='right'>
-                    <a className='btn btn-base' href='#'>
+                    <a className='btn btn-base bid' href='#'>
                       BID <i className='fa fa-arrow-right' />
                     </a>
                   </div>
@@ -85,7 +85,7 @@ const CreatorDetails = () => {
                     <h6 className='d-block mb-0'>Bidding Price: $66.25</h6>
                   </div>
                   <div className='right'>
-                    <a className='btn btn-base' href='#'>
+                    <a className='btn btn-base bid' href='#'>
                       BID <i className='fa fa-arrow-right' />
                     </a>
                   </div>
@@ -129,7 +129,7 @@ const CreatorDetails = () => {
                     <h6 className='d-block mb-0'>Bidding Price: $66.25</h6>
                   </div>
                   <div className='right'>
-                    <a className='btn btn-base' href='#'>
+                    <a className='btn btn-base bid' href='#'>
                       BID <i className='fa fa-arrow-right' />
                     </a>
                   </div>
@@ -173,7 +173,7 @@ const CreatorDetails = () => {
                     <h6 className='d-block mb-0'>Bidding Price: $66.25</h6>
                   </div>
                   <div className='right'>
-                    <a className='btn btn-base' href='#'>
+                    <a className='btn btn-base bid' href='#'>
                       BID <i className='fa fa-arrow-right' />
                     </a>
                   </div>
@@ -217,7 +217,7 @@ const CreatorDetails = () => {
                     <h6 className='d-block mb-0'>Bidding Price: $66.25</h6>
                   </div>
                   <div className='right'>
-                    <a className='btn btn-base' href='#'>
+                    <a className='btn btn-base bid' href='#'>
                       BID <i className='fa fa-arrow-right' />
                     </a>
                   </div>
@@ -261,7 +261,7 @@ const CreatorDetails = () => {
                     <h6 className='d-block mb-0'>Bidding Price: $66.25</h6>
                   </div>
                   <div className='right'>
-                    <a className='btn btn-base' href='#'>
+                    <a className='btn btn-base bid' href='#'>
                       BID <i className='fa fa-arrow-right' />
                     </a>
                   </div>

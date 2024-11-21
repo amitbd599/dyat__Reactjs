@@ -24,7 +24,7 @@ const CreatorDetailsArea = () => {
                       </div>
                     </div>
                     <div className='right text-end'>
-                      <span className='color-base'>25 SOL</span>
+                      <span className='color-base'>25 SOL </span>
                       <i className='far fa-heart' />
                       <div className='ratting'>
                         <i className='fa fa-star' />

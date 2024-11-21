@@ -51,7 +51,7 @@ const TopAdvisorsTwo = () => {
           </div>
         </div>
         <div className='swiper advisors-slider'>
-          <div className='swiper-wrapper'>
+          <div className='swiper-wrapper_inner'>
             <Slider {...settings}>
               <div className='swiper-slide px-3'>
                 <div className='single-advisors-inner'>

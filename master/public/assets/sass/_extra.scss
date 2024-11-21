@@ -11,26 +11,26 @@
   }
 }
 
-.top-seller-area.one,
-.testimonial-area.one,
-.top-auction-area.one,
-.top-advisors-area.one,
-.top-auction-area.one {
-  .array-prev {
-    position: absolute;
-    right: 0;
-    top: -104px;
-  }
-  .array-next {
-    position: absolute;
-    right: 60px;
-    top: -104px;
-  }
-}
+// .top-seller-area.one,
+// .testimonial-area.one,
+// .top-auction-area.one,
+// .top-advisors-area.one,
+// .top-auction-area.one {
+//   .array-prev {
+//     position: absolute;
+//     right: 0;
+//     top: -104px;
+//   }
+//   .array-next {
+//     position: absolute;
+//     right: 60px;
+//     top: -104px;
+//   }
+// }
 
 .block-chain-gallery-area.one {
   .slick-current {
-    transform: scale(1.5);
+    transform: scale(1.6);
   }
 }
 
@@ -126,4 +126,42 @@
   .footer-area-1 {
     margin-top: 0;
   }
+}
+
+.swiper-wrapper_inner .slick-slide > div {
+  margin: 0 15px; /* Add horizontal spacing */
+}
+
+.swiper-wrapper_inner .slick-list {
+  margin: 0 -15px; /* Offset the margin to prevent clipping */
+}
+
+.block-chain-gallery-area.one {
+  .slick-slide {
+    padding: 0 10px; /* Adjust the gap between slides */
+  }
+
+  /* Prevent clipping of the first and last slides */
+  .slick-list {
+    margin: 0 -10px;
+  }
+}
+
+.offcanvas.offcanvas-menu-wrap.offcanvas-end.show {
+  visibility: visible;
+  overflow-y: hidden;
+}
+
+.aline-flex {
+  display: flex;
+  align-items: center;
+}
+
+.btn i {
+  padding-top: 22px;
+  padding-left: 8px;
+}
+.bid.btn i {
+  padding-top: 14px;
+  padding-left: 8px;
 }

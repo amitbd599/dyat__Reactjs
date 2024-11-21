@@ -38,8 +38,8 @@ const TournamentDetailsInner = () => {
                 </div>
                 <div className='info-meta d-lg-flex justify-content-lg-between align-self-center'>
                   <h3 className='tt-capitalize mobile-medium'>
-                    <img src='assets/img/team/info1.png' alt='img' />
-                    About Alxender Pul
+                    <img src='assets/img/team/info1.png' alt='img' /> About
+                    Alxender Pul
                   </h3>
                   <a className='btn btn-base' href='#'>
                     Join Now{" "}

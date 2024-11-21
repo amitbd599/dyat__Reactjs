@@ -34,7 +34,7 @@ const BlogArea = () => {
                   include hits like have the best online games.
                 </p>
                 <a className='read-more-text mt-3' href='blog-details.html'>
-                  Read More <i className='fas fa-angle-double-right' />
+                  Read More <i className='fas fa-angle-double-right pt-1' />
                 </a>
               </div>
             </div>
@@ -65,7 +65,7 @@ const BlogArea = () => {
                   justo, posuere loborti viverra laoreet matti ullamcorper
                 </p>
                 <a className='btn btn-base mt-3' href='service-details.html'>
-                  Read More <i className='fa fa-arrow-right' />
+                  Read More <i className='fa fa-arrow-right ' />
                 </a>
               </div>
             </div>

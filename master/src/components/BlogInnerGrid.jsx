@@ -49,7 +49,7 @@ const BlogInnerGrid = () => {
                 </span>
                 <h4 className='title'>
                   <a href='blog-details.html'>
-                    Game Pass Available Now Exclusive Reward
+                    Game Pass Available Now Exclusive
                   </a>
                 </h4>
                 <svg
@@ -148,7 +148,7 @@ const BlogInnerGrid = () => {
                 </span>
                 <h4 className='title'>
                   <a href='blog-details.html'>
-                    Game Pass Available Now Exclusive Reward
+                    Game Pass Available Now Exclusive
                   </a>
                 </h4>
                 <svg

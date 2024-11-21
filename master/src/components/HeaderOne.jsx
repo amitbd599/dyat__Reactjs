@@ -20,7 +20,6 @@ const HeaderOne = () => {
   const sidebarMenuRef = useRef(null);
 
   useEffect(() => {
-    // Handle overlay click
     const handleOverlayClick = (e) => {
       e.preventDefault();
       bodyOverlayRef.current.classList.remove("active");

@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
+
 const ProductDetailsInner = () => {
   const [thumbsSwiper, setThumbsSwiper] = React.useState(null);
   const [activeColor, setActiveColor] = useState("bg-yellow");

@@ -1,29 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 
 const TopAuctionAreaOne = () => {
-  const NextArrow = ({ onClick }) => (
-    <div className='array-button slider-control-round text-md-end'>
-      <button className='array-next' onClick={onClick}>
-        <i className='fa fa-angle-left' />
-      </button>
-    </div>
-  );
-
-  const PrevArrow = ({ onClick }) => (
-    <div className='array-button slider-control-round text-md-end'>
-      <button className='array-prev' onClick={onClick}>
-        <i className='fa fa-angle-right' />
-      </button>
-    </div>
-  );
+  const sliderRef = useRef(null);
 
   const settings = {
     spaceBetween: 30,
     speed: 1000,
     loop: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    arrows: false,
     slidesToShow: 4,
     responsive: [
       {
@@ -65,7 +50,7 @@ const TopAuctionAreaOne = () => {
     ],
   };
   return (
-    <div className='top-auction-area one pd-top-120 pd-bottom-90'>
+    <div className='top-auction-area  pd-top-120 pd-bottom-90'>
       <div className='container'>
         <div className='section-title'>
           <div className='row'>
@@ -73,12 +58,28 @@ const TopAuctionAreaOne = () => {
               <h6 className='sub-title split_chars'>top Auction</h6>
               <h2 className='title move-line-3d'>Limited Auction</h2>
             </div>
+            <div className='col-lg-6 col-md-4 mt-md-0 mt-4'>
+              <div className='array-button slider-control-round text-md-end'>
+                <button
+                  className='array-next'
+                  onClick={() => sliderRef.current.slickNext()}
+                >
+                  <i className='fa fa-angle-left' />
+                </button>
+                <button
+                  className='array-prev'
+                  onClick={() => sliderRef.current.slickPrev()}
+                >
+                  <i className='fa fa-angle-right' />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div className='swiper top-auction-slider'>
-          <div className='swiper-wrapper'>
-            <Slider {...settings}>
-              <div className='swiper-slide px-3'>
+          <div className='swiper-wrapper_inner'>
+            <Slider ref={sliderRef} {...settings}>
+              <div className='swiper-slide'>
                 <div className='single-feature-inner style-2'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/top-auction/1.png' alt='img' />
@@ -107,7 +108,7 @@ const TopAuctionAreaOne = () => {
                   </div>
                 </div>
               </div>
-              <div className='swiper-slide px-3'>
+              <div className='swiper-slide'>
                 <div className='single-feature-inner style-2'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/top-auction/2.png' alt='img' />
@@ -136,7 +137,7 @@ const TopAuctionAreaOne = () => {
                   </div>
                 </div>
               </div>
-              <div className='swiper-slide px-3'>
+              <div className='swiper-slide'>
                 <div className='single-feature-inner style-2'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/top-auction/3.png' alt='img' />
@@ -165,7 +166,7 @@ const TopAuctionAreaOne = () => {
                   </div>
                 </div>
               </div>
-              <div className='swiper-slide px-3'>
+              <div className='swiper-slide'>
                 <div className='single-feature-inner style-2'>
                   <div className='thumb text-center p-0'>
                     <img src='assets/img/top-auction/4.png' alt='img' />

@@ -46,7 +46,7 @@ const InstagramAreaOne = () => {
         Instagram
       </a>
       <div className='swiper instagram-slider'>
-        <div className='swiper-wrapper'>
+        <div className='swiper-wrapper_inner_hold'>
           <Slider {...settings}>
             <div className='swiper-slide'>
               <div className='thumb'>
