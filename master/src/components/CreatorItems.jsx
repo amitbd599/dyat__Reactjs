@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CreatorItems = () => {
   return (
@@ -33,9 +34,9 @@ const CreatorItems = () => {
                     />
                   </div>
                   <div className='d-flex justify-content-between align-items-center mt-4 pt-3'>
-                    <a className='btn btn-base' href='#'>
+                    <Link className='btn btn-base bid' to='#'>
                       FILTER
-                    </a>
+                    </Link>
                     <div className='slider-values'>
                       Price :<span id='min-value'> 10</span> -{" "}
                       <span id='max-value'>90</span>
@@ -131,17 +132,17 @@ const CreatorItems = () => {
                       <div className='d-flex justify-content-between align-items-center'>
                         <div className='left'>
                           <h5 className='d-block'>Highest bid</h5>
-                          <a href='#' className='bid'>
+                          <Link to='#' className='bid'>
                             <span className='icon'>
                               <i className='fa fa-link' />
                             </span>
                             3.005 <span className='color-base'>ETH</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className='right'>
-                          <a className='btn btn-base' href='#'>
+                          <Link className='btn btn-base bid' to='#'>
                             BID <i className='fa fa-arrow-right' />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -178,17 +179,17 @@ const CreatorItems = () => {
                       <div className='d-flex justify-content-between align-items-center'>
                         <div className='left'>
                           <h5 className='d-block'>Highest bid</h5>
-                          <a href='#' className='bid'>
+                          <Link to='#' className='bid'>
                             <span className='icon'>
                               <i className='fa fa-link' />
                             </span>
                             3.005 <span className='color-base'>ETH</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className='right'>
-                          <a className='btn btn-base' href='#'>
+                          <Link className='btn btn-base bid' to='#'>
                             BID <i className='fa fa-arrow-right' />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -225,17 +226,17 @@ const CreatorItems = () => {
                       <div className='d-flex justify-content-between align-items-center'>
                         <div className='left'>
                           <h5 className='d-block'>Highest bid</h5>
-                          <a href='#' className='bid'>
+                          <Link to='#' className='bid'>
                             <span className='icon'>
                               <i className='fa fa-link' />
                             </span>
                             3.005 <span className='color-base'>ETH</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className='right'>
-                          <a className='btn btn-base' href='#'>
+                          <Link className='btn btn-base bid' to='#'>
                             BID <i className='fa fa-arrow-right' />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -272,17 +273,17 @@ const CreatorItems = () => {
                       <div className='d-flex justify-content-between align-items-center'>
                         <div className='left'>
                           <h5 className='d-block'>Highest bid</h5>
-                          <a href='#' className='bid'>
+                          <Link to='#' className='bid'>
                             <span className='icon'>
                               <i className='fa fa-link' />
                             </span>
                             3.005 <span className='color-base'>ETH</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className='right'>
-                          <a className='btn btn-base' href='#'>
+                          <Link className='btn btn-base bid' to='#'>
                             BID <i className='fa fa-arrow-right' />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -319,17 +320,17 @@ const CreatorItems = () => {
                       <div className='d-flex justify-content-between align-items-center'>
                         <div className='left'>
                           <h5 className='d-block'>Highest bid</h5>
-                          <a href='#' className='bid'>
+                          <Link to='#' className='bid'>
                             <span className='icon'>
                               <i className='fa fa-link' />
                             </span>
                             3.005 <span className='color-base'>ETH</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className='right'>
-                          <a className='btn btn-base' href='#'>
+                          <Link className='btn btn-base bid' to='#'>
                             BID <i className='fa fa-arrow-right' />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -366,17 +367,17 @@ const CreatorItems = () => {
                       <div className='d-flex justify-content-between align-items-center'>
                         <div className='left'>
                           <h5 className='d-block'>Highest bid</h5>
-                          <a href='#' className='bid'>
+                          <Link to='#' className='bid'>
                             <span className='icon'>
                               <i className='fa fa-link' />
                             </span>
                             3.005 <span className='color-base'>ETH</span>
-                          </a>
+                          </Link>
                         </div>
                         <div className='right'>
-                          <a className='btn btn-base' href='#'>
+                          <Link className='btn btn-base bid' to='#'>
                             BID <i className='fa fa-arrow-right' />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -29,12 +29,14 @@ const BackToTop = () => {
   return (
     <>
       {/* Back to Top Button */}
-      {showBackToTop && (
+      {showBackToTop ? (
         <div className='back-to-top' onClick={scrollToTop}>
           <span className='back-top'>
             <i className='fa fa-angle-up'></i>
           </span>
         </div>
+      ) : (
+        ""
       )}
     </>
   );

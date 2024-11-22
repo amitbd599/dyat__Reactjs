@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TournamentInner = () => {
   return (
@@ -27,7 +28,7 @@ const TournamentInner = () => {
                     <h6>Action</h6>
                     <h4 className='mb-0'>Escape Room</h4>
                   </div>
-                  <a className='right-arrow' href='#'>
+                  <Link className='right-arrow' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -42,7 +43,7 @@ const TournamentInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCQIXHjaTSIYGAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <span className='line-shadow' />
                 <div className='bottom-area'>
@@ -62,10 +63,10 @@ const TournamentInner = () => {
                       </span>
                     </div>
                     <div className='col-4 text-end'>
-                      <a className='btn btn-gray' href='#'>
+                      <Link className='btn btn-gray' to='#'>
                         live Now
                         <i className='fa fa-arrow-right' aria-hidden='true' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -94,7 +95,7 @@ const TournamentInner = () => {
                     <h6>Action</h6>
                     <h4 className='mb-0'>Escape Room</h4>
                   </div>
-                  <a className='right-arrow' href='#'>
+                  <Link className='right-arrow' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -109,7 +110,7 @@ const TournamentInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCQIXHjaTSIYGAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <span className='line-shadow' />
                 <div className='bottom-area'>
@@ -129,10 +130,10 @@ const TournamentInner = () => {
                       </span>
                     </div>
                     <div className='col-4 text-end'>
-                      <a className='btn btn-gray' href='#'>
+                      <Link className='btn btn-gray' to='#'>
                         live Now
                         <i className='fa fa-arrow-right' aria-hidden='true' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -161,7 +162,7 @@ const TournamentInner = () => {
                     <h6>Action</h6>
                     <h4 className='mb-0'>Escape Room</h4>
                   </div>
-                  <a className='right-arrow' href='#'>
+                  <Link className='right-arrow' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -176,7 +177,7 @@ const TournamentInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCQIXHjaTSIYGAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <span className='line-shadow' />
                 <div className='bottom-area'>
@@ -196,10 +197,10 @@ const TournamentInner = () => {
                       </span>
                     </div>
                     <div className='col-4 text-end'>
-                      <a className='btn btn-gray' href='#'>
+                      <Link className='btn btn-gray' to='#'>
                         live Now
                         <i className='fa fa-arrow-right' aria-hidden='true' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -228,7 +229,7 @@ const TournamentInner = () => {
                     <h6>Action</h6>
                     <h4 className='mb-0'>Escape Room</h4>
                   </div>
-                  <a className='right-arrow' href='#'>
+                  <Link className='right-arrow' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -243,7 +244,7 @@ const TournamentInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCQIXHjaTSIYGAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <span className='line-shadow' />
                 <div className='bottom-area'>
@@ -263,10 +264,10 @@ const TournamentInner = () => {
                       </span>
                     </div>
                     <div className='col-4 text-end'>
-                      <a className='btn btn-gray' href='#'>
+                      <Link className='btn btn-gray' to='#'>
                         live Now
                         <i className='fa fa-arrow-right' aria-hidden='true' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

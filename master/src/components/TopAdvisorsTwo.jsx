@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const TopAdvisorsTwo = () => {
@@ -72,25 +73,25 @@ const TopAdvisorsTwo = () => {
               <div className='swiper-slide px-3'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
-                    <a href='team-details.html'>
+                    <Link to='/team-details'>
                       <img src='assets/img/team/1.png' alt='img' />
-                    </a>
+                    </Link>
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Alxender Pul</a>
+                      <Link to='/team-details'>Alxender Pul</Link>
                     </h5>
                     <span className='designation'>CEO</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -98,25 +99,25 @@ const TopAdvisorsTwo = () => {
               <div className='swiper-slide px-3'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
-                    <a href='team-details.html'>
+                    <Link to='/team-details'>
                       <img src='assets/img/team/1.png' alt='img' />
-                    </a>
+                    </Link>
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Robart Jn</a>
+                      <Link to='/team-details'>Robart Jn</Link>
                     </h5>
                     <span className='designation'>Developer</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -124,25 +125,25 @@ const TopAdvisorsTwo = () => {
               <div className='swiper-slide px-3'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
-                    <a href='team-details.html'>
+                    <Link to='/team-details'>
                       <img src='assets/img/team/2.png' alt='img' />
-                    </a>
+                    </Link>
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Ronea Alexa</a>
+                      <Link to='/team-details'>Ronea Alexa</Link>
                     </h5>
                     <span className='designation'>Co-Founder</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -150,25 +151,25 @@ const TopAdvisorsTwo = () => {
               <div className='swiper-slide px-3'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
-                    <a href='team-details.html'>
+                    <Link to='/team-details'>
                       <img src='assets/img/team/3.png' alt='img' />
-                    </a>
+                    </Link>
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Alxender Pul</a>
+                      <Link to='/team-details'>Alxender Pul</Link>
                     </h5>
                     <span className='designation'>CEO</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -176,25 +177,25 @@ const TopAdvisorsTwo = () => {
               <div className='swiper-slide px-3'>
                 <div className='single-advisors-inner'>
                   <div className='thumb text-center p-0'>
-                    <a href='team-details.html'>
+                    <Link to='/team-details'>
                       <img src='assets/img/team/4.png' alt='img' />
-                    </a>
+                    </Link>
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Twinkle jn</a>
+                      <Link to='/team-details'>Twinkle jn</Link>
                     </h5>
                     <span className='designation'>CEO</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

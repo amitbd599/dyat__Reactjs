@@ -5,7 +5,7 @@ const Animation = () => {
   useEffect(() => {
     Aos.init({
       offset: 120,
-      easing: "ease-in-back",
+      easing: "ease-in-sine",
       once: true,
       duration: 1000,
     });

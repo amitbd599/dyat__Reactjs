@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceDetailsInner = () => {
   return (
@@ -13,24 +14,24 @@ const ServiceDetailsInner = () => {
                     <h4 className='service-widget-title'>Trending Match</h4>
                   </li>
                   <li>
-                    <a href='#'>
+                    <Link to='#'>
                       <span /> Upgrade your NFTs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>
+                    <Link to='#'>
                       <span /> Sell on the Marketplace.
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>
+                    <Link to='#'>
                       <span /> Receive tokens NFTs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>
+                    <Link to='#'>
                       <span /> Hardcore Multiplayer battles
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -111,13 +112,13 @@ const ServiceDetailsInner = () => {
                     <strong>Tags : </strong>
                   </li>
                   <li>
-                    <a href='#'>Killer Hunter ,</a>
+                    <Link to='#'>Killer Hunter ,</Link>
                   </li>
                   <li>
-                    <a href='#'>Ninja ii ,</a>
+                    <Link to='#'>Ninja ii ,</Link>
                   </li>
                   <li>
-                    <a href='#'>public</a>
+                    <Link to='#'>public</Link>
                   </li>
                 </ul>
               </div>

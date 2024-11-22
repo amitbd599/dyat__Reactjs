@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const CartCount = () => {
   let [count, setCount] = useState(0);
@@ -145,9 +146,9 @@ const ProductCart = () => {
                   <span>$155.00</span>
                 </li>
                 <li>
-                  <a className='btn btn-base w-100 mt-4' href='checkout.html'>
+                  <Link className='btn btn-base w-100 mt-4' to='/checkout'>
                     Checkout
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

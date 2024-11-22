@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WalletInner = () => {
   return (
@@ -17,7 +18,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/9.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -32,12 +33,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>MetaMask</h3>
               </div>
             </div>
@@ -54,7 +55,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/10.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -69,12 +70,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>Coibase Wallet</h3>
               </div>
             </div>
@@ -91,7 +92,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/11.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -106,12 +107,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>WalletConnect</h3>
               </div>
             </div>
@@ -128,7 +129,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/12.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -143,12 +144,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>Bitkeep</h3>
               </div>
             </div>
@@ -165,7 +166,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/13.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -180,12 +181,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>Phantom</h3>
               </div>
             </div>
@@ -202,7 +203,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/14.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -217,12 +218,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>Glow</h3>
               </div>
             </div>
@@ -239,7 +240,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/15.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -254,12 +255,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>Solflare</h3>
               </div>
             </div>
@@ -276,7 +277,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/16.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -291,12 +292,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>Solflare</h3>
               </div>
             </div>
@@ -313,7 +314,7 @@ const WalletInner = () => {
                   <div className='icon'>
                     <img src='assets/img/wallet/17.png' alt='img' />
                   </div>
-                  <a className='read-more text-end d-block' href='#'>
+                  <Link className='read-more text-end d-block' to='#'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -328,12 +329,12 @@ const WalletInner = () => {
                         xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='far fa-bookmark' />
                   Connect
-                </a>
+                </Link>
                 <h3 className='title'>Solflare</h3>
               </div>
             </div>

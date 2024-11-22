@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const TopAdvisorsOne = () => {
@@ -104,19 +105,19 @@ const TopAdvisorsOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Alxender Pul</a>
+                      <Link to='/team-details'>Alxender Pul</Link>
                     </h5>
                     <span className='designation'>CEO</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -128,19 +129,19 @@ const TopAdvisorsOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Siddrat mat</a>
+                      <Link to='/team-details'>Siddrat mat</Link>
                     </h5>
                     <span className='designation'>Developer</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -152,19 +153,19 @@ const TopAdvisorsOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Robart Fine</a>
+                      <Link to='/team-details'>Robart Fine</Link>
                     </h5>
                     <span className='designation'>Co-Founder</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -176,19 +177,19 @@ const TopAdvisorsOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Jone Doe</a>
+                      <Link to='/team-details'>Jone Doe</Link>
                     </h5>
                     <span className='designation'>CEO</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -200,19 +201,19 @@ const TopAdvisorsOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='name'>
-                      <a href='team-details.html'>Daniel vibe</a>
+                      <Link to='/team-details'>Daniel vibe</Link>
                     </h5>
                     <span className='designation'>CEO</span>
                     <div className='social-list text-end'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fab fa-facebook' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-twitter' />
-                      </a>
-                      <a href='#'>
+                      </Link>
+                      <Link to='#'>
                         <i className='fab fa-linkedin' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

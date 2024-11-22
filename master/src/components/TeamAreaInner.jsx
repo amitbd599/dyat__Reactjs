@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamAreaInner = () => {
   return (
@@ -19,11 +20,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-1.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Alxender Pul</a>
+                  <Link to='/creator-details'>Alxender Pul</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='#'>
+                <Link className='right-arrow' to='#'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -38,7 +39,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -56,11 +57,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-2.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Simon Fraser</a>
+                  <Link to='/creator-details'>Simon Fraser</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='#'>
+                <Link className='right-arrow' to='#'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -75,7 +76,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -93,11 +94,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-3.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Simron</a>
+                  <Link to='/creator-details'>Simron</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href=''>
+                <Link className='right-arrow' to='/'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -112,7 +113,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -130,11 +131,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-4.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Robarl Nonal</a>
+                  <Link to='/creator-details'>Robarl Nonal</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href=''>
+                <Link className='right-arrow' to='/'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -149,7 +150,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -167,11 +168,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-5.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Robart jr</a>
+                  <Link to='/creator-details'>Robart jr</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href=''>
+                <Link className='right-arrow' to='/'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -186,7 +187,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -204,11 +205,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-6.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Kader Jobber</a>
+                  <Link to='/creator-details'>Kader Jobber</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href=''>
+                <Link className='right-arrow' to='/'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -223,7 +224,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -241,11 +242,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-7.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Robarto nr</a>
+                  <Link to='/creator-details'>Robarto nr</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='creator-details.html'>
+                <Link className='right-arrow' to='/creator-details'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -260,7 +261,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -278,11 +279,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-8.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Jone Doe</a>
+                  <Link to='/creator-details'>Jone Doe</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='creator-details.html'>
+                <Link className='right-arrow' to='/creator-details'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -297,7 +298,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -315,11 +316,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-1.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Alex Ender</a>
+                  <Link to='/creator-details'>Alex Ender</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='creator-details.html'>
+                <Link className='right-arrow' to='/creator-details'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -334,7 +335,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -352,11 +353,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-2.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Alxen Derul</a>
+                  <Link to='/creator-details'>Alxen Derul</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='creator-details.html'>
+                <Link className='right-arrow' to='/creator-details'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -371,7 +372,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -389,11 +390,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-3.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Fique dr</a>
+                  <Link to='/creator-details'>Fique dr</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='creator-details.html'>
+                <Link className='right-arrow' to='/creator-details'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -408,7 +409,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -426,11 +427,11 @@ const TeamAreaInner = () => {
                   <img src='assets/img/creator-2/u-4.png' alt='img' />
                 </div>
                 <h5 className='name'>
-                  <a href='creator-details.html'>Vender Pul</a>
+                  <Link to='/creator-details'>Vender Pul</Link>
                 </h5>
                 <span className='amount'>CEO</span>
                 <span className='line-shadow' />
-                <a className='right-arrow' href='creator-details.html'>
+                <Link className='right-arrow' to='/creator-details'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -445,7 +446,7 @@ const TeamAreaInner = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABqlBMVEV5enl3eHc/QD+LjIuJiomIiYiHiIempqalpaWkpKSpqam6urqFhoWEhYSDhIOoqKi7u7vAwMCYmZibnJuam5qampq2trbGxsbDw8PLy8vJyMnJycnIyMjExMTMzMy8vLzd3d2tra3CwsLi4uLPz8+ioqLh4eHl5eWqqqrk5OTFxcXg4OC1tbWhoaG4uLinp6eOj451dnVRUlGQkZB4eXhUVVSEhYT09PTz8/Py8vLw8PDw8PDa2tpNTk2VlpXz8/Pz8/Px8fH5+fm9vb1rbGuLjIuioqKioqKhoaGenp6np6fFxcX39/fb2tvAwMDq6urm5ubExMTq6ur////6+vrDw8Pv7+/6+vrk5OTBwcHo6Oj////29vbd3d2vr6/u7u77+/vBwcHr6+v////09PTk5OSbm5vx8fHCwsLp6enh4eHp6en19fXg4ODq6ur09PTg4ODx8fHBwcHz8/Pf39/y8vLm5ubBwcH////09PTg4OCnp6eZmpmFhYViY2LCwsL///+6urrs7Oz////h4eHf39/q6uru7u7h4eHm5ubDw8Ph4eH////9/f37vLIbAAAAjHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABT9PXz8N6GDUvf9vX1ljIDQT8/PzWQ+p0zvqY9yPvLi+v9pDrG+dREMfT+O8f00kdA9D/IScfUTcbTSfc+0kjdqT381EsGSlMoOvc9x/XBSXjGTRNdBYZS/MMAAAABYktHRFN6Zx0GAAAAB3RJTUUH6AkFFiMcvg5V4AAAAPhJREFUGNNjYGBgYDQztwABSytrG1smBmZmZhY7ewcgcHTq6el1dmFgZWVlc3Vzd/fw9PLu6enx8QWLMLNzcHJx+/mDRAIYeHh5+djY+QUEA4OCQ0LDwiMYhIRFRIXFxCUio6JjYuPiEyIYBCWlpGXEZROTklNS5dLSgSLy4rKyshIZmcEpWQqKHjARpcTs4JxcZRVVd5hIZF5yfoGaugaHeyFYRKIoKLq4RE1Ti4PdrbS3jEFetjyzorJKW01dR5e9uqa2jkGgPrshp0pNTU1dT5Vd38DQiKGxqTmlRA0mYmxiytDSk9+qjSLS1t6hpoYi0tnVjSoCAKUMRL0Qzm8kAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

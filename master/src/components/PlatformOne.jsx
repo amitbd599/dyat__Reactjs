@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PlatformOne = () => {
   return (
@@ -38,11 +39,11 @@ const PlatformOne = () => {
                 data-aos='fade-up'
                 data-aos-delay='500'
               >
-                <a className='btn btn-main style-small' href='about.html'>
+                <Link className='btn btn-main style-small' to='/about'>
                   <span>
                     <span>Explore More</span>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@ const PlatformOne = () => {
             >
               <img className='bg-image' src='assets/img/bg/2.png' alt='img' />
               <div className='details-inner'>
-                <a className='read-more text-end d-block' href='wallet.html'>
+                <Link className='read-more text-end d-block' to='/wallet'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -69,14 +70,14 @@ const PlatformOne = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
                 <div className='icon'>
                   <img src='assets/img/platform/1.png' alt='img' />
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='fa fa-bookmark' />
                   Developer
-                </a>
+                </Link>
                 <h3 className='title'>
                   Crypto <span>Ownership</span>
                 </h3>
@@ -93,7 +94,7 @@ const PlatformOne = () => {
             >
               <img className='bg-image' src='assets/img/bg/1.png' alt='img' />
               <div className='details-inner'>
-                <a className='read-more text-end d-block' href='wallet.html'>
+                <Link className='read-more text-end d-block' to='/wallet'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -108,14 +109,14 @@ const PlatformOne = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
                 <div className='icon'>
                   <img src='assets/img/platform/2.png' alt='img' />
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='fa fa-bookmark' />
                   Developer
-                </a>
+                </Link>
                 <h3 className='title'>
                   Crypto <span>Ownership</span>
                 </h3>
@@ -130,7 +131,7 @@ const PlatformOne = () => {
             >
               <img className='bg-image' src='assets/img/bg/1.png' alt='img' />
               <div className='details-inner'>
-                <a className='read-more text-end d-block' href='wallet.html'>
+                <Link className='read-more text-end d-block' to='/wallet'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -145,14 +146,14 @@ const PlatformOne = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
                 <div className='icon'>
                   <img src='assets/img/platform/2.png' alt='img' />
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='fa fa-bookmark' />
                   Developer
-                </a>
+                </Link>
                 <h3 className='title'>
                   Crypto <span>Ownership</span>
                 </h3>
@@ -167,7 +168,7 @@ const PlatformOne = () => {
             >
               <img className='bg-image' src='assets/img/bg/1.png' alt='img' />
               <div className='details-inner'>
-                <a className='read-more text-end d-block' href='wallet.html'>
+                <Link className='read-more text-end d-block' to='/wallet'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -182,14 +183,14 @@ const PlatformOne = () => {
                       xlinkHref='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEX///9NTk3ExMSIiYj////h4eGmpqb///9/FIABAAAAB3RSTlMAHJNWza90vjA1FgAAAAFiS0dEAIgFHUgAAAAHdElNRQfoCB8EMzmirnqjAAAAbElEQVQY00XNwQmAMAyF4UcVz+IEIl1AEJygeNUNREq9iyXr29SmeaeP/5AAwDDxRvBW4rmevWTTwe5CCBfRgzJDFMVWbTZ3i+27i1OGOGUxZzHn4pyLc/79Z/hYM5q5Zj2iL2VeM1rNwFn1Aeb+IAGtAecIAAAAAElFTkSuQmCC'
                     />
                   </svg>
-                </a>
+                </Link>
                 <div className='icon'>
                   <img src='assets/img/platform/3.png' alt='img' />
                 </div>
-                <a href='#' className='cat'>
+                <Link to='#' className='cat'>
                   <i className='fa fa-bookmark' />
                   Developer
-                </a>
+                </Link>
                 <h3 className='title'>
                   Crypto <span>Ownership</span>
                 </h3>

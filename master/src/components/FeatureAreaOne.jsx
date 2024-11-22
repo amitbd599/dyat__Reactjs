@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FeatureAreaOne = () => {
   return (
@@ -12,15 +13,15 @@ const FeatureAreaOne = () => {
           >
             featured Item
           </h2>
-          <a
+          <Link
             className='read-more-arrow-text d-flex align-items-center mt-md-0 mt-4'
-            href='explore-product.html'
+            to='/explore-product'
           >
             Discover More
             <span>
               <i className='fa fa-arrow-right' />
             </span>
-          </a>
+          </Link>
         </div>
         <div className='row'>
           <div className='col-xl-3 col-md-6'>
@@ -39,19 +40,19 @@ const FeatureAreaOne = () => {
               <div className='details d-flex justify-content-between align-items-center'>
                 <div className='left'>
                   <h5 className='d-block'>
-                    <a href='creator-details.html'>Highest bid</a>
+                    <Link to='/creator-details'>Highest bid</Link>
                   </h5>
-                  <a href='creator-details.html' className='bid'>
+                  <Link to='/creator-details' className='bid'>
                     <span className='icon'>
                       <i className='fa fa-link' />
                     </span>
                     3.005 <span className='color-base'>ETH</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <Link className='btn btn-base bid' to='/creator-details'>
                     BID <i className='fa fa-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -72,19 +73,19 @@ const FeatureAreaOne = () => {
               <div className='details d-flex justify-content-between align-items-center'>
                 <div className='left'>
                   <h5 className='d-block'>
-                    <a href='creator-details.html'>Highest bid</a>
+                    <Link to='/creator-details'>Highest bid</Link>
                   </h5>
-                  <a href='creator-details.html' className='bid'>
+                  <Link to='/creator-details' className='bid'>
                     <span className='icon'>
                       <i className='fa fa-link' />
                     </span>
                     3.005 <span className='color-base'>ETH</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <Link className='btn btn-base bid' to='/creator-details'>
                     BID <i className='fa fa-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,19 +106,19 @@ const FeatureAreaOne = () => {
               <div className='details d-flex justify-content-between align-items-center'>
                 <div className='left'>
                   <h5 className='d-block'>
-                    <a href='creator-details.html'>Highest bid</a>
+                    <Link to='/creator-details'>Highest bid</Link>
                   </h5>
-                  <a href='creator-details.html' className='bid'>
+                  <Link to='/creator-details' className='bid'>
                     <span className='icon'>
                       <i className='fa fa-link' />
                     </span>
                     3.005 <span className='color-base'>ETH</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <Link className='btn btn-base bid' to='/creator-details'>
                     BID <i className='fa fa-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -138,19 +139,19 @@ const FeatureAreaOne = () => {
               <div className='details d-flex justify-content-between align-items-center'>
                 <div className='left'>
                   <h5 className='d-block'>
-                    <a href='creator-details.html'>Highest bid</a>
+                    <Link to='/creator-details'>Highest bid</Link>
                   </h5>
-                  <a href='creator-details.html' className='bid'>
+                  <Link to='/creator-details' className='bid'>
                     <span className='icon'>
                       <i className='fa fa-link' />
                     </span>
                     3.005 <span className='color-base'>ETH</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <Link className='btn btn-base bid' to='/creator-details'>
                     BID <i className='fa fa-arrow-right' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

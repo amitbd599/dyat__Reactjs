@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const HeaderOne = () => {
   const [scroll, setScroll] = useState(false);
-
+  const location = useLocation();
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset < 150) {
@@ -69,6 +69,7 @@ const HeaderOne = () => {
   const handleSubMenuToggle = (index) => {
     setActiveMenu(activeMenu === index ? null : index);
   };
+
   return (
     <>
       {/* search popup start*/}
@@ -95,7 +96,7 @@ const HeaderOne = () => {
       {/* navbar start */}
       <nav
         className={`navbar main navbar-area navbar-area-1 navbar-border navbar-expand-lg ${
-          scroll && "sticky-active"
+          scroll ? "sticky-active" : ""
         }`}
       >
         <div className='container nav-container px-lg-0'>
@@ -118,7 +119,14 @@ const HeaderOne = () => {
           <div className='collapse navbar-collapse' id='xdyat_main_menu'>
             <ul className='navbar-nav menu-open ps-xl-5 pe-xl-4 text-end'>
               <li className='menu-item-has-children'>
-                <Link className='active' to='/#'>
+                <Link
+                  className={
+                    ["/", "/index-2", "/index-3"].includes(location.pathname)
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
                   Home
                 </Link>
                 <ul className='sub-menu'>
@@ -155,99 +163,319 @@ const HeaderOne = () => {
                 </ul>
               </li>
               <li>
-                <NavLink
+                <Link
                   to='/about'
-                  className={(navData) => navData.isActive && "active"}
+                  className={
+                    ["/about"].includes(location.pathname) ? "active" : ""
+                  }
                 >
                   About Us
-                </NavLink>
+                </Link>
               </li>
               <li className='menu-item-has-children'>
-                <Link to='/#'>Tournament</Link>
+                <Link
+                  className={
+                    ["/tournament", "/tournament-details"].includes(
+                      location.pathname
+                    )
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
+                  Tournament
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/tournament'>Tournament</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/tournament'
+                    >
+                      Tournament
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/tournament-details'>Tournament Details</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/tournament-details'
+                    >
+                      Tournament Details
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <Link to='/#'>Shop</Link>
+                <Link
+                  className={
+                    [
+                      "/shop",
+                      "/shop-details",
+                      "/explore-product",
+                      "/cart",
+                      "/checkout",
+                    ].includes(location.pathname)
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
+                  Shop
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/shop'>Shop</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/shop'
+                    >
+                      Shop
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/shop-details'>Shop Details</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/shop-details'
+                    >
+                      Shop Details
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/explore-product'>Explore product</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/explore-product'
+                    >
+                      Explore product
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/cart'>Cart</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/cart'
+                    >
+                      Cart
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/checkout'>Checkout</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/checkout'
+                    >
+                      Checkout
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className='menu-item-has-children dropdown-sub-menu'>
-                <Link to='/#'>Pages</Link>
+                <Link
+                  className={
+                    [
+                      "/blog",
+                      "/blog-list",
+                      "/blog-grid",
+                      "/create-item",
+                      "/blog-details",
+                      "/creators",
+                      "/creator-details",
+                      "/service",
+                      "/service-details",
+                      "/team",
+                      "/team-details",
+                      "/auction",
+                      "/help-center",
+                      "/login",
+                      "/wallet",
+                      "/error",
+                    ].includes(location.pathname)
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
+                  Pages
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/blog'>Blog</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog'
+                    >
+                      Blog
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/blog-list'>Blog List</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog-list'
+                    >
+                      Blog List
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/blog-grid'>Blog Grid</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog-grid'
+                    >
+                      Blog Grid
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/blog-details'>Blog Details</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog-details'
+                    >
+                      Blog Details
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/create-item'>Create Items</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/create-item'
+                    >
+                      Create Items
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/creators'>Creators</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/creators'
+                    >
+                      Creators
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/creator-details'>Creator details</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/creator-details'
+                    >
+                      Creator details
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/service'>service</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/service'
+                    >
+                      service
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/service-details'>Service Details</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/service-details'
+                    >
+                      Service Details
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/team'>team</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/team'
+                    >
+                      team
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/team-details'>team Details</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/team-details'
+                    >
+                      team Details
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/auction'>Auction</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/auction'
+                    >
+                      Auction
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/help-center'>Help Center</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/help-center'
+                    >
+                      Help Center
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/login'>Login</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/login'
+                    >
+                      Login
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/wallet'>Wallet</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/wallet'
+                    >
+                      Wallet
+                    </NavLink>
                   </li>
                   <li>
-                    <Link to='/error'>404</Link>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/error'
+                    >
+                      404
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to='/contact'>Contact Us</Link>
+                <Link
+                  className={location.pathname === "/contact" ? "active" : ""}
+                  to='/contact'
+                >
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
@@ -303,7 +531,7 @@ const HeaderOne = () => {
                   />
                 </svg>
               </button>
-              <Link className='btn btn-main style-small' to='/#'>
+              <Link className='btn btn-main style-small' to='#'>
                 <span>
                   <span>
                     <img src='assets/img/btn-arrow.png' alt='img' />~
@@ -370,22 +598,22 @@ const HeaderOne = () => {
             </div>
             <ul className='social-media social-media-light'>
               <li>
-                <Link to='/#'>
+                <Link to='#'>
                   <i className='fab fa-facebook-f' />
                 </Link>
               </li>
               <li>
-                <Link to='/#'>
+                <Link to='#'>
                   <i className='fab fa-twitter' />
                 </Link>
               </li>
               <li>
-                <Link to='/#'>
+                <Link to='#'>
                   <i className='fab fa-instagram' />
                 </Link>
               </li>
               <li>
-                <Link to='/#'>
+                <Link to='#'>
                   <i className='fab fa-pinterest' />
                 </Link>
               </li>
@@ -398,7 +626,7 @@ const HeaderOne = () => {
       {/* Mobile Menu */}
       <nav
         className={`navbar mobile navbar-area navbar-area-1 navbar-border navbar-expand-lg ${
-          scroll && "sticky-active"
+          scroll ? "sticky-active" : ""
         }`}
       >
         <div className='container nav-container px-lg-0'>
@@ -437,7 +665,13 @@ const HeaderOne = () => {
                   activeMenu === 0 ? "show" : ""
                 }`}
               >
-                <Link to='/#' onClick={() => handleSubMenuToggle(0)}>
+                <Link
+                  to='#'
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(0);
+                  }}
+                >
                   Home
                 </Link>
                 <ul
@@ -465,7 +699,13 @@ const HeaderOne = () => {
                   activeMenu === 1 ? "show" : ""
                 }`}
               >
-                <Link to='/#' onClick={() => handleSubMenuToggle(1)}>
+                <Link
+                  to='#'
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(1);
+                  }}
+                >
                   Tournament
                 </Link>
                 <ul
@@ -486,7 +726,13 @@ const HeaderOne = () => {
                   activeMenu === 2 ? "show" : ""
                 }`}
               >
-                <Link to='/#' onClick={() => handleSubMenuToggle(2)}>
+                <Link
+                  to='#'
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(2);
+                  }}
+                >
                   Shop
                 </Link>
                 <ul
@@ -516,7 +762,13 @@ const HeaderOne = () => {
                   activeMenu === 3 ? "show" : ""
                 }`}
               >
-                <Link to='/#' onClick={() => handleSubMenuToggle(3)}>
+                <Link
+                  to='#'
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(3);
+                  }}
+                >
                   Pages
                 </Link>
                 <ul

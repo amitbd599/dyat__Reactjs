@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamDetailsInner = () => {
   return (
@@ -18,15 +19,15 @@ const TeamDetailsInner = () => {
                 <h5 className='name'>Alxender Pul</h5>
                 <span className='designation'>Co-Founder</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -45,14 +46,14 @@ const TeamDetailsInner = () => {
                   <img src='assets/img/team/info1.png' alt='img' /> About
                   Alxender Pul
                 </h3>
-                <a className='btn btn-base' href='#'>
+                <Link className='btn btn-base' to='#'>
                   Join Now{" "}
                   <img
                     className='ms-2'
                     src='assets/img/team/info2.png'
                     alt='img'
                   />
-                </a>
+                </Link>
               </div>
               <div className='price-meta'>
                 <div className='row'>
@@ -70,24 +71,24 @@ const TeamDetailsInner = () => {
                   </div>
                   <div className='col-6 text-end'>
                     <div className='team-share d-inline-block'>
-                      <a href='#'>
+                      <Link to='#'>
                         <i className='fa fa-share-alt' />
-                      </a>
+                      </Link>
                       <ul>
                         <li>
-                          <a href='#'>
+                          <Link to='#'>
                             <i className='fab fa-facebook' />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href='#'>
+                          <Link to='#'>
                             <i className='fab fa-twitter' />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href='#'>
+                          <Link to='#'>
                             <i className='fab fa-pinterest' />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>

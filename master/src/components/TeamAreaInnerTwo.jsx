@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamAreaInnerTwo = () => {
   return (
@@ -23,15 +24,15 @@ const TeamAreaInnerTwo = () => {
                 <h5 className='name'>Alxender Pul</h5>
                 <span className='designation'>CEO</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -49,15 +50,15 @@ const TeamAreaInnerTwo = () => {
                 <h5 className='name'>Simon Fraser</h5>
                 <span className='designation'>Developer</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -75,15 +76,15 @@ const TeamAreaInnerTwo = () => {
                 <h5 className='name'>Alxender Pul</h5>
                 <span className='designation'>Co-Founder</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,15 +102,15 @@ const TeamAreaInnerTwo = () => {
                 <h5 className='name'>Robarl Nonal</h5>
                 <span className='designation'>CEO</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

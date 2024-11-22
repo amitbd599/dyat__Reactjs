@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CreatorAreaOne = () => {
   return (
@@ -31,11 +32,11 @@ const CreatorAreaOne = () => {
               data-aos-delay='300'
             >
               <div className='btn-box d-inline-block'>
-                <a className='btn btn-main style-small' href='about.html'>
+                <Link className='btn btn-main style-small' to='/about'>
                   <span>
                     <span>Explore More</span>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

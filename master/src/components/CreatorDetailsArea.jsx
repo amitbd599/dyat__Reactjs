@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CreatorDetailsArea = () => {
   return (
@@ -42,17 +43,17 @@ const CreatorDetailsArea = () => {
                   <div className='d-flex justify-content-between align-items-center'>
                     <div className='left'>
                       <h5 className='d-block'>Highest bid</h5>
-                      <a href='#' className='bid'>
+                      <Link to='#' className='bid'>
                         <span className='icon'>
                           <i className='fa fa-link' />
                         </span>{" "}
                         3.005 <span className='color-base'>ETH</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className='right'>
-                      <a className='btn btn-base' href='creator-details.html'>
+                      <Link className='btn btn-base bid' to='/creator-details'>
                         BID <i className='fa fa-arrow-right' />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -108,9 +109,9 @@ const CreatorDetailsArea = () => {
                   <input className='item-field' type='text' placeholder='-/-' />
                 </div>
               </div>
-              <a className='btn btn-base mt-4' href='#'>
+              <Link className='btn btn-base bid mt-4' to='#'>
                 Submit Now
-              </a>
+              </Link>
             </form>
           </div>
         </div>

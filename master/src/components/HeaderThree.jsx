@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const HeaderThree = () => {
   const [scroll, setScroll] = useState(false);
-
+  const location = useLocation();
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset < 150) {
@@ -77,7 +78,7 @@ const HeaderThree = () => {
         id='td-search-popup'
         ref={searchPopupRef}
       >
-        <form action='index.html' className='search-form'>
+        <form action='#' className='search-form'>
           <div className='form-group'>
             <input
               type='text'
@@ -95,7 +96,7 @@ const HeaderThree = () => {
       {/* navbar start */}
       <nav
         className={`navbar main navbar-area navbar-area-3 navbar-border navbar-expand-lg ${
-          scroll && "sticky-active"
+          scroll ? "sticky-active" : ""
         }`}
       >
         <div className='container nav-container px-lg-0'>
@@ -111,119 +112,370 @@ const HeaderThree = () => {
             </button>
           </div>
           <div className='logo'>
-            <a href='index.html'>
+            <Link to='/'>
               <img src='assets/img/logo.png' alt='img' />
-            </a>
+            </Link>
           </div>
           <div className='collapse navbar-collapse' id='xdyat_main_menu'>
-            <ul className='navbar-nav menu-open ps-lg-5 pe-xl-4 text-center'>
+            <ul className='navbar-nav menu-open ps-xl-5 pe-xl-4 text-end'>
               <li className='menu-item-has-children'>
-                <a className='active' href='#'>
+                <Link
+                  className={
+                    ["/", "/index-2", "/index-3"].includes(location.pathname)
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
                   Home
-                </a>
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a className='current' href='index.html'>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/'
+                    >
                       Home 01
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='index-2.html'>Home 02</a>
+                    <NavLink
+                      to='/index-2'
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                    >
+                      Home 02
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='index-3.html'>Home 03</a>
+                    <NavLink
+                      to='/index-3'
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                    >
+                      Home 03
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href='about.html'>About Us</a>
+                <Link
+                  to='/about'
+                  className={
+                    ["/about"].includes(location.pathname) ? "active" : ""
+                  }
+                >
+                  About Us
+                </Link>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Tournament</a>
+                <Link
+                  className={
+                    ["/tournament", "/tournament-details"].includes(
+                      location.pathname
+                    )
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
+                  Tournament
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='tournament.html'>Tournament</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/tournament'
+                    >
+                      Tournament
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='tournament-details.html'>Tournament Details</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/tournament-details'
+                    >
+                      Tournament Details
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Shop</a>
+                <Link
+                  className={
+                    [
+                      "/shop",
+                      "/shop-details",
+                      "/explore-product",
+                      "/cart",
+                      "/checkout",
+                    ].includes(location.pathname)
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
+                  Shop
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='shop.html'>Shop</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/shop'
+                    >
+                      Shop
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='shop-details.html'>Shop Details</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/shop-details'
+                    >
+                      Shop Details
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='explore-product.html'>Explore product</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/explore-product'
+                    >
+                      Explore product
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='cart.html'>Cart</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/cart'
+                    >
+                      Cart
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='checkout.html'>Checkout</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/checkout'
+                    >
+                      Checkout
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className='menu-item-has-children dropdown-sub-menu'>
-                <a href='#'>Pages</a>
+                <Link
+                  className={
+                    [
+                      "/blog",
+                      "/blog-list",
+                      "/blog-grid",
+                      "/create-item",
+                      "/blog-details",
+                      "/creators",
+                      "/creator-details",
+                      "/service",
+                      "/service-details",
+                      "/team",
+                      "/team-details",
+                      "/auction",
+                      "/help-center",
+                      "/login",
+                      "/wallet",
+                      "/error",
+                    ].includes(location.pathname)
+                      ? "active"
+                      : ""
+                  }
+                  to='#'
+                >
+                  Pages
+                </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='blog.html'>Blog</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog'
+                    >
+                      Blog
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='blog-list.html'>Blog List</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog-list'
+                    >
+                      Blog List
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='blog-grid.html'>Blog Grid</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog-grid'
+                    >
+                      Blog Grid
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='blog-details.html'>Blog Details</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/blog-details'
+                    >
+                      Blog Details
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='create-item.html'>Create Items</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/create-item'
+                    >
+                      Create Items
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='creators.html'>Creators</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/creators'
+                    >
+                      Creators
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='creator-details.html'>Creator details</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/creator-details'
+                    >
+                      Creator details
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='service.html'>service</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/service'
+                    >
+                      service
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='service-details.html'>Service Details</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/service-details'
+                    >
+                      Service Details
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='team.html'>team</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/team'
+                    >
+                      team
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='team-details.html'>team Details</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/team-details'
+                    >
+                      team Details
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='auction.html'>Auction</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/auction'
+                    >
+                      Auction
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='help-center.html'>Help Center</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/help-center'
+                    >
+                      Help Center
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='login.html'>Login</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/login'
+                    >
+                      Login
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='wallet.html'>Wallet</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/wallet'
+                    >
+                      Wallet
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='error.html'>404</a>
+                    <NavLink
+                      className={(navData) =>
+                        navData.isActive ? "current" : ""
+                      }
+                      to='/error'
+                    >
+                      404
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href='contact.html'>Contact Us</a>
+                <Link
+                  className={location.pathname === "/contact" ? "active" : ""}
+                  to='/contact'
+                >
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
@@ -244,7 +496,7 @@ const HeaderThree = () => {
                 </svg>
               </button>
             </div>
-            <a className='header-cart' href='cart.html'>
+            <Link className='header-cart' to='/cart'>
               <svg
                 width={24}
                 height={24}
@@ -257,7 +509,7 @@ const HeaderThree = () => {
                   fill='#25C6DA'
                 />
               </svg>
-            </a>
+            </Link>
             <div className='btn-box d-inline-block'>
               <button
                 className='me-3 header-menu-toggle bg-transparent border-0 shadow-0'
@@ -279,14 +531,14 @@ const HeaderThree = () => {
                   />
                 </svg>
               </button>
-              <a className='btn btn-main style-small' href='#'>
+              <Link className='btn btn-main style-small' to='#'>
                 <span>
                   <span>
                     <img src='assets/img/btn-arrow.png' alt='img' />~
                   </span>
                   <span>connect</span>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -346,24 +598,24 @@ const HeaderThree = () => {
             </div>
             <ul className='social-media social-media-light'>
               <li>
-                <a href='#'>
+                <Link to='#'>
                   <i className='fab fa-facebook-f' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#'>
+                <Link to='#'>
                   <i className='fab fa-twitter' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#'>
+                <Link to='#'>
                   <i className='fab fa-instagram' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#'>
+                <Link to='#'>
                   <i className='fab fa-pinterest' />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -374,7 +626,7 @@ const HeaderThree = () => {
       {/* Mobile Menu */}
       <nav
         className={`navbar mobile navbar-area navbar-area-1 navbar-border navbar-expand-lg ${
-          scroll && "sticky-active"
+          scroll ? "sticky-active" : ""
         }`}
       >
         <div className='container nav-container px-lg-0'>
@@ -395,9 +647,9 @@ const HeaderThree = () => {
 
           {/* Logo */}
           <div className='logo'>
-            <a href='index.html'>
+            <Link to='/'>
               <img src='assets/img/logo.png' alt='Logo' />
-            </a>
+            </Link>
           </div>
 
           {/* Navbar Links */}
@@ -413,27 +665,30 @@ const HeaderThree = () => {
                   activeMenu === 0 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(0)}>
+                <Link to='#'  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(0);
+                  }}>
                   Home
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 0 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='index.html'>Home 01</a>
+                    <Link to='/'>Home 01</Link>
                   </li>
                   <li>
-                    <a href='index-2.html'>Home 02</a>
+                    <Link to='/index-2'>Home 02</Link>
                   </li>
                   <li>
-                    <a href='index-3.html'>Home 03</a>
+                    <Link to='/index-3'>Home 03</Link>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <a href='about.html'>About Us</a>
+                <Link to='/about'>About Us</Link>
               </li>
 
               <li
@@ -441,18 +696,21 @@ const HeaderThree = () => {
                   activeMenu === 1 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(1)}>
+                <Link to='#'  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(1);
+                  }}>
                   Tournament
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 1 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='tournament.html'>Tournament</a>
+                    <Link to='/tournament'>Tournament</Link>
                   </li>
                   <li>
-                    <a href='tournament-details.html'>Tournament Details</a>
+                    <Link to='/tournament-details'>Tournament Details</Link>
                   </li>
                 </ul>
               </li>
@@ -462,27 +720,30 @@ const HeaderThree = () => {
                   activeMenu === 2 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(2)}>
+                <Link to='#'  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(2);
+                  }}>
                   Shop
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 2 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='shop.html'>Shop</a>
+                    <Link to='/shop'>Shop</Link>
                   </li>
                   <li>
-                    <a href='shop-details.html'>Shop Details</a>
+                    <Link to='/shop-details'>Shop Details</Link>
                   </li>
                   <li>
-                    <a href='explore-product.html'>Explore Product</a>
+                    <Link to='/explore-product'>Explore Product</Link>
                   </li>
                   <li>
-                    <a href='cart.html'>Cart</a>
+                    <Link to='/cart'>Cart</Link>
                   </li>
                   <li>
-                    <a href='checkout.html'>Checkout</a>
+                    <Link to='/checkout'>Checkout</Link>
                   </li>
                 </ul>
               </li>
@@ -492,27 +753,30 @@ const HeaderThree = () => {
                   activeMenu === 3 ? "show" : ""
                 }`}
               >
-                <a href='#' onClick={() => handleSubMenuToggle(3)}>
+                <Link to='#'  onClick={(e) => {
+                    e.preventDefault();
+                    handleSubMenuToggle(3);
+                  }}>
                   Pages
-                </a>
+                </Link>
                 <ul
                   className='sub-menu'
                   style={{ display: activeMenu === 3 ? "block" : "none" }}
                 >
                   <li>
-                    <a href='blog.html'>Blog</a>
+                    <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
-                    <a href='blog-details.html'>Blog Details</a>
+                    <Link to='/blog-details'>Blog Details</Link>
                   </li>
                   <li>
-                    <a href='service.html'>Service</a>
+                    <Link to='/service'>Service</Link>
                   </li>
                   <li>
-                    <a href='team.html'>Team</a>
+                    <Link to='/team'>Team</Link>
                   </li>
                   <li>
-                    <a href='contact.html'>Contact Us</a>
+                    <Link to='/contact'>Contact Us</Link>
                   </li>
                 </ul>
               </li>
@@ -542,7 +806,7 @@ const HeaderThree = () => {
               </button>
             </div>
 
-            <a className='header-cart' href='cart.html'>
+            <Link className='header-cart' to='/cart'>
               <svg
                 width='24'
                 height='24'
@@ -554,7 +818,7 @@ const HeaderThree = () => {
                 <rect x='2' y='2' width='20' height='3' />
                 <line x1='3' y1='6' x2='15' y2='15' />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

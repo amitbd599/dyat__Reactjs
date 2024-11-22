@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamInner = () => {
   return (
@@ -18,15 +19,15 @@ const TeamInner = () => {
                 <h5 className='name'>Alxender Pul</h5>
                 <span className='designation'>CEO</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -44,15 +45,15 @@ const TeamInner = () => {
                 <h5 className='name'>Amit Exs</h5>
                 <span className='designation'>Developer</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -70,15 +71,15 @@ const TeamInner = () => {
                 <h5 className='name'>Alex Pul</h5>
                 <span className='designation'>Co-Founder</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -96,15 +97,15 @@ const TeamInner = () => {
                 <h5 className='name'>Jhone Doe</h5>
                 <span className='designation'>CEO</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -122,15 +123,15 @@ const TeamInner = () => {
                 <h5 className='name'>Sunil Gandi</h5>
                 <span className='designation'>Co-Founder</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -148,15 +149,15 @@ const TeamInner = () => {
                 <h5 className='name'>Rohit Sorma</h5>
                 <span className='designation'>CEO</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -174,15 +175,15 @@ const TeamInner = () => {
                 <h5 className='name'>Nargis Alom</h5>
                 <span className='designation'>CEO</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -200,15 +201,15 @@ const TeamInner = () => {
                 <h5 className='name'>Johan srog</h5>
                 <span className='designation'>Developer</span>
                 <div className='social-list text-end'>
-                  <a href='#'>
+                  <Link to='#'>
                     <i className='fab fa-facebook' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-twitter' />
-                  </a>
-                  <a href='#'>
+                  </Link>
+                  <Link to='#'>
                     <i className='fab fa-linkedin' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterTwo = () => {
   return (
@@ -8,36 +9,36 @@ const FooterTwo = () => {
     >
       <div className='container'>
         <div className='footer-top'>
-          <a className='footer-logo' href='index.html'>
+          <Link className='footer-logo' to='/'>
             <img src='assets/img/logo.png' alt='img' />
-          </a>
+          </Link>
           <p>
             +0 123 456 7890 - <span>info@yourmail.com</span>
           </p>
           <ul className='p-0 m-0'>
             <li>
               {" "}
-              <a href='index.html'>Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
               {" "}
-              <a href='about.html'>About Us</a>
+              <Link to='/about'>About Us</Link>
             </li>
             <li>
               {" "}
-              <a href='tournament.html'>Tournament</a>
+              <Link to='/tournament'>Tournament</Link>
             </li>
             <li>
               {" "}
-              <a href='news.html'>News</a>
+              <Link to='/news'>News</Link>
             </li>
             <li>
               {" "}
-              <a href='pages.html'>Pages</a>
+              <Link to='/pages'>Pages</Link>
             </li>
             <li>
               {" "}
-              <a href='contact.html'>Contact</a>
+              <Link to='/contact'>Contact</Link>
             </li>
           </ul>
           <img src='assets/img/footer/line.png' alt='img' />

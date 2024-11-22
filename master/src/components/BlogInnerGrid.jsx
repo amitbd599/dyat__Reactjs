@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogInnerGrid = () => {
   return (
@@ -19,9 +20,9 @@ const BlogInnerGrid = () => {
                   <i className='fa fa-calendar-alt' /> march 19, 2024
                 </span>
                 <h4 className='title'>
-                  <a href='blog-details.html'>
+                  <Link to='/blog-details'>
                     Industry Best of Support Venues Dubai
-                  </a>
+                  </Link>
                 </h4>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -35,10 +36,10 @@ const BlogInnerGrid = () => {
                     d='M178.500,-0.000 C277.083,-0.000 357.000,0.447 357.000,1.000 C357.000,1.552 277.083,1.999 178.500,1.999 C79.917,1.999 -0.000,1.552 -0.000,1.000 C-0.000,0.447 79.917,-0.000 178.500,-0.000 Z'
                   />
                 </svg>
-                <a className='read-more-arrow-text' href='blog-details.html'>
+                <Link className='read-more-arrow-text' to='/blog-details'>
                   Read More
                   <img src='assets/img/blog/arrow.png' alt='img' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -56,9 +57,9 @@ const BlogInnerGrid = () => {
                   <i className='fa fa-calendar-alt' /> march 19, 2024
                 </span>
                 <h4 className='title'>
-                  <a href='blog-details.html'>
+                  <Link to='/blog-details'>
                     Game Pass Available Now Exclusive
-                  </a>
+                  </Link>
                 </h4>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -72,10 +73,10 @@ const BlogInnerGrid = () => {
                     d='M178.500,-0.000 C277.083,-0.000 357.000,0.447 357.000,1.000 C357.000,1.552 277.083,1.999 178.500,1.999 C79.917,1.999 -0.000,1.552 -0.000,1.000 C-0.000,0.447 79.917,-0.000 178.500,-0.000 Z'
                   />
                 </svg>
-                <a className='read-more-arrow-text' href='blog-details.html'>
+                <Link className='read-more-arrow-text' to='/blog-details'>
                   Read More
                   <img src='assets/img/blog/arrow.png' alt='img' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -93,9 +94,9 @@ const BlogInnerGrid = () => {
                   <i className='fa fa-calendar-alt' /> march 19, 2024
                 </span>
                 <h4 className='title'>
-                  <a href='blog-details.html'>
+                  <Link to='/blog-details'>
                     Industry Best of Support Venues Dubai
-                  </a>
+                  </Link>
                 </h4>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -109,10 +110,10 @@ const BlogInnerGrid = () => {
                     d='M178.500,-0.000 C277.083,-0.000 357.000,0.447 357.000,1.000 C357.000,1.552 277.083,1.999 178.500,1.999 C79.917,1.999 -0.000,1.552 -0.000,1.000 C-0.000,0.447 79.917,-0.000 178.500,-0.000 Z'
                   />
                 </svg>
-                <a className='read-more-arrow-text' href='blog-details.html'>
+                <Link className='read-more-arrow-text' to='/blog-details'>
                   Read More
                   <img src='assets/img/blog/arrow.png' alt='img' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -130,9 +131,9 @@ const BlogInnerGrid = () => {
                   <i className='fa fa-calendar-alt' /> march 19, 2024
                 </span>
                 <h4 className='title'>
-                  <a href='blog-details.html'>
+                  <Link to='/blog-details'>
                     Industry Best of Support Venues Dubai
-                  </a>
+                  </Link>
                 </h4>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -146,10 +147,10 @@ const BlogInnerGrid = () => {
                     d='M178.500,-0.000 C277.083,-0.000 357.000,0.447 357.000,1.000 C357.000,1.552 277.083,1.999 178.500,1.999 C79.917,1.999 -0.000,1.552 -0.000,1.000 C-0.000,0.447 79.917,-0.000 178.500,-0.000 Z'
                   />
                 </svg>
-                <a className='read-more-arrow-text' href='blog-details.html'>
+                <Link className='read-more-arrow-text' to='/blog-details'>
                   Read More
                   <img src='assets/img/blog/arrow.png' alt='img' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -167,9 +168,9 @@ const BlogInnerGrid = () => {
                   <i className='fa fa-calendar-alt' /> march 19, 2024
                 </span>
                 <h4 className='title'>
-                  <a href='blog-details.html'>
+                  <Link to='/blog-details'>
                     Game Pass Available Now Exclusive
-                  </a>
+                  </Link>
                 </h4>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -183,10 +184,10 @@ const BlogInnerGrid = () => {
                     d='M178.500,-0.000 C277.083,-0.000 357.000,0.447 357.000,1.000 C357.000,1.552 277.083,1.999 178.500,1.999 C79.917,1.999 -0.000,1.552 -0.000,1.000 C-0.000,0.447 79.917,-0.000 178.500,-0.000 Z'
                   />
                 </svg>
-                <a className='read-more-arrow-text' href='blog-details.html'>
+                <Link className='read-more-arrow-text' to='/blog-details'>
                   Read More
                   <img src='assets/img/blog/arrow.png' alt='img' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -204,9 +205,9 @@ const BlogInnerGrid = () => {
                   <i className='fa fa-calendar-alt' /> march 19, 2024
                 </span>
                 <h4 className='title'>
-                  <a href='blog-details.html'>
+                  <Link to='/blog-details'>
                     Industry Best of Support Venues Dubai
-                  </a>
+                  </Link>
                 </h4>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -220,28 +221,28 @@ const BlogInnerGrid = () => {
                     d='M178.500,-0.000 C277.083,-0.000 357.000,0.447 357.000,1.000 C357.000,1.552 277.083,1.999 178.500,1.999 C79.917,1.999 -0.000,1.552 -0.000,1.000 C-0.000,0.447 79.917,-0.000 178.500,-0.000 Z'
                   />
                 </svg>
-                <a className='read-more-arrow-text' href='blog-details.html'>
+                <Link className='read-more-arrow-text' to='/blog-details'>
                   Read More
                   <img src='assets/img/blog/arrow.png' alt='img' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
         <div className='pagination text-center d-flex justify-content-center'>
-          <a className='prev page-numbers' href='#'>
+          <Link className='prev page-numbers' to='#'>
             <i className='fa fa-angle-left' />
-          </a>
-          <a className='page-numbers' href='#'>
+          </Link>
+          <Link className='page-numbers' to='#'>
             1
-          </a>
+          </Link>
           <span className='page-numbers current'>2</span>
-          <a className='page-numbers' href='#'>
+          <Link className='page-numbers' to='#'>
             3
-          </a>
-          <a className='next page-numbers' href='#'>
+          </Link>
+          <Link className='next page-numbers' to='#'>
             <i className='fa fa-angle-right' />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

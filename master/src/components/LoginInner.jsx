@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LoginInner = () => {
   return (
@@ -19,9 +20,9 @@ const LoginInner = () => {
                   </h2>
                   <p className='mb-0 mt-3'>
                     Already a Member?{" "}
-                    <a className='color-base' href='#'>
+                    <Link className='color-base' to='#'>
                       Log in
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -38,9 +39,9 @@ const LoginInner = () => {
                     <img src='assets/img/icon/18.png' alt='img' />
                   </span>
                 </div>
-                <a className='btn btn-base tt-uppercase w-100' href=''>
+                <Link className='btn btn-base tt-uppercase w-100' to='#'>
                   Log in
-                </a>
+                </Link>
                 <div className='text-md-end mt-4 tt-uppercase'>
                   <button
                     className='bg-transparent border-0 text-white'
@@ -60,30 +61,30 @@ const LoginInner = () => {
             <div className='ps-xl-5 ps-lg-4'>
               <img className='w-100' src='assets/img/login.png' alt='img' />
               <div className='login-social-btn mt-4'>
-                <a
+                <Link
                   className='tt-uppercase w-100 border-1 d-block w-100 border-radius-6 p-4'
-                  href='#'
+                  to='#'
                 >
                   <i className='fab fa-facebook me-2' />
                   login with facebook
                   <i className='fa fa-angle-right float-right' />
-                </a>
-                <a
+                </Link>
+                <Link
                   className='tt-uppercase w-100 border-1 d-block w-100 border-radius-6 p-4'
-                  href='#'
+                  to='#'
                 >
                   <i className='fab fa-apple me-2' />
                   login with apple
                   <i className='fa fa-angle-right float-right' />
-                </a>
-                <a
+                </Link>
+                <Link
                   className='tt-uppercase w-100 border-1 d-block w-100 border-radius-6 p-4'
-                  href='#'
+                  to='#'
                 >
                   <i className='fab fa-google me-2' />
                   login with Google
                   <i className='fa fa-angle-right float-right' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

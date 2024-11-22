@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const TopAuctionAreaOne = () => {
@@ -94,23 +95,26 @@ const TopAuctionAreaOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Lune Studio</a>
+                      <Link to='/creator-details'>Lune Studio</Link>
                       <i className='fas fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <Link to='/creator-details' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -123,23 +127,26 @@ const TopAuctionAreaOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Aune Studio</a>
+                      <Link to='/creator-details'>Aune Studio</Link>
                       <i className='fas fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <Link to='/creator-details' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -152,23 +159,26 @@ const TopAuctionAreaOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Quae Studio</a>
+                      <Link to='/creator-details'>Quae Studio</Link>
                       <i className='fas fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <Link to='/creator-details' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -181,23 +191,26 @@ const TopAuctionAreaOne = () => {
                   </div>
                   <div className='details'>
                     <h5 className='product-item__wishlist tt-uppercase d-flex justify-content-between align-items-center mb-3'>
-                      <a href='creator-details.html'>Lune Studio</a>
+                      <Link to='/creator-details'>Lune Studio</Link>
                       <i className='fas fa-heart' />
                     </h5>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='creator-details.html' className='bid'>
+                        <Link to='/creator-details' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

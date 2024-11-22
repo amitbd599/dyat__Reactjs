@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 const GalleryOne = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -37,64 +38,64 @@ const GalleryOne = () => {
         <div className='row'>
           <div className='col-lg-2 col-sm-6 px-2'>
             <div className='thumb'>
-              <a href='tournament-details.html'>
+              <Link to='/tournament-details'>
                 <img
                   className='w-100'
                   src='assets/img/gallery-2/1.png'
                   alt='img'
                 />
-              </a>
+              </Link>
             </div>
             <div className='thumb'>
-              <a href='tournament-details.html'>
+              <Link to='/tournament-details'>
                 <img
                   className='w-100'
                   src='assets/img/gallery-2/2.png'
                   alt='img'
                 />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='col-lg-2 col-sm-6 order-lg-3 px-2'>
             <div className='thumb'>
-              <a href='tournament-details.html'>
+              <Link to='/tournament-details'>
                 <img
                   className='w-100'
                   src='assets/img/gallery-2/4.png'
                   alt='img'
                 />
-              </a>
+              </Link>
             </div>
             <div className='thumb'>
-              <a href='tournament-details.html'>
+              <Link to='/tournament-details'>
                 <img
                   className='w-100'
                   src='assets/img/gallery-2/5.png'
                   alt='img'
                 />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='col-lg-6 col-sm-6 order-lg-2 px-2'>
             <div className='thumb'>
-              <a href='tournament-details.html'>
+              <Link to='/tournament-details'>
                 <img
                   className='w-100'
                   src='assets/img/gallery-2/3.png'
                   alt='img'
                 />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='col-lg-2 col-sm-6 order-lg-4 px-2'>
             <div className='thumb'>
-              <a href='tournament-details.html'>
+              <Link to='/tournament-details'>
                 <img
                   className='w-100'
                   src='assets/img/gallery-2/6.png'
                   alt='img'
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

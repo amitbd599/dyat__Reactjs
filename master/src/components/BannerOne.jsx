@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BannerOne = () => {
   return (
@@ -49,11 +50,11 @@ const BannerOne = () => {
                 data-aos='fade-up'
                 data-aos-delay='700'
               >
-                <a className='btn btn-main style-small' href='about.html'>
+                <Link className='btn btn-main style-small' to='/about'>
                   <span>
                     <span>Explore More</span>
                   </span>
-                </a>
+                </Link>
               </div>
               <div
                 className='list-img fade-slide bottom'

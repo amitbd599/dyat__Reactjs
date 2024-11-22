@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterOne = () => {
   return (
@@ -34,19 +35,19 @@ const FooterOne = () => {
               <h4 className='widget-title'>Important Links</h4>
               <ul>
                 <li>
-                  <a href='creators.html'>CURATION</a>
+                  <Link to='/creators'>CURATION</Link>
                 </li>
                 <li>
-                  <a href='about.html'>ABOUT US</a>
+                  <Link to='/about'>ABOUT US</Link>
                 </li>
                 <li>
-                  <a href='login.html'>MY ACCOUNT</a>
+                  <Link to='/login'>MY ACCOUNT</Link>
                 </li>
                 <li>
-                  <a href='contact.html'>CONTACT</a>
+                  <Link to='/contact'>CONTACT</Link>
                 </li>
                 <li>
-                  <a href='checkout.html'>SHIPPING &amp; RETURNS</a>
+                  <Link to='/checkout'>SHIPPING &amp; RETURNS</Link>
                 </li>
               </ul>
             </div>
@@ -78,39 +79,39 @@ const FooterOne = () => {
                 <ul>
                   <li>
                     <img src='assets/img/footer/1.png' alt='img' />
-                    <a href='#'>
+                    <Link to='#'>
                       <i className='fab fa-instagram' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <img src='assets/img/footer/2.png' alt='img' />
-                    <a href='#'>
+                    <Link to='#'>
                       <i className='fab fa-instagram' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <img src='assets/img/footer/3.png' alt='img' />
-                    <a href='#'>
+                    <Link to='#'>
                       <i className='fab fa-instagram' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <img src='assets/img/footer/4.png' alt='img' />
-                    <a href='#'>
+                    <Link to='#'>
                       <i className='fab fa-instagram' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <img src='assets/img/footer/5.png' alt='img' />
-                    <a href='#'>
+                    <Link to='#'>
                       <i className='fab fa-instagram' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <img src='assets/img/footer/6.png' alt='img' />
-                    <a href='#'>
+                    <Link to='#'>
                       <i className='fab fa-instagram' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

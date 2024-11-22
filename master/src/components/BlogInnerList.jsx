@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogInnerList = () => {
   return (
@@ -16,10 +17,10 @@ const BlogInnerList = () => {
                 <div className='col-lg-7'>
                   <div className='details p-0'>
                     <div className='cat'>
-                      <a href='#'>Victory</a>
+                      <Link to='#'>Victory</Link>
                     </div>
                     <h2 className='title'>
-                      <a href='blog-details.html'>THE FIRST WEB3 GAME like</a>
+                      <Link to='/blog-details'>THE FIRST WEB3 GAME like</Link>
                     </h2>
                     <ul className='blog-meta'>
                       <li>
@@ -37,9 +38,9 @@ const BlogInnerList = () => {
                       your outecon secture’ar inner deauty with our essential
                       infused include hits like have the best online games.
                     </p>
-                    <a className='read-more-text mt-3' href='blog-details.html'>
+                    <Link className='read-more-text mt-3' to='/blog-details'>
                       Read More <i className='fas fa-angle-double-right' />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -54,10 +55,10 @@ const BlogInnerList = () => {
                 <div className='col-lg-7'>
                   <div className='details p-0'>
                     <div className='cat'>
-                      <a href='#'>Victory</a>
+                      <Link to='#'>Victory</Link>
                     </div>
                     <h2 className='title'>
-                      <a href='blog-details.html'>ACROSS MOBILE PC game</a>
+                      <Link to='/blog-details'>ACROSS MOBILE PC game</Link>
                     </h2>
                     <ul className='blog-meta'>
                       <li>
@@ -75,9 +76,9 @@ const BlogInnerList = () => {
                       your outecon secture’ar inner deauty with our essential
                       infused include hits like have the best online games.
                     </p>
-                    <a className='read-more-text mt-3' href='blog-details.html'>
+                    <Link className='read-more-text mt-3' to='/blog-details'>
                       Read More <i className='fas fa-angle-double-right' />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -92,10 +93,10 @@ const BlogInnerList = () => {
                 <div className='col-lg-7'>
                   <div className='details p-0'>
                     <div className='cat'>
-                      <a href='#'>Victory</a>
+                      <Link to='#'>Victory</Link>
                     </div>
                     <h2 className='title'>
-                      <a href='blog-details.html'>Across FIRST WEB3 GAME</a>
+                      <Link to='/blog-details'>Across FIRST WEB3 GAME</Link>
                     </h2>
                     <ul className='blog-meta'>
                       <li>
@@ -113,9 +114,9 @@ const BlogInnerList = () => {
                       your outecon secture’ar inner deauty with our essential
                       infused include hits like have the best online games.
                     </p>
-                    <a className='read-more-text mt-3' href='blog-details.html'>
+                    <Link className='read-more-text mt-3' to='/blog-details'>
                       Read More <i className='fas fa-angle-double-right' />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -130,10 +131,10 @@ const BlogInnerList = () => {
                 <div className='col-lg-7'>
                   <div className='details p-0'>
                     <div className='cat'>
-                      <a href='#'>Victory</a>
+                      <Link to='#'>Victory</Link>
                     </div>
                     <h2 className='title'>
-                      <a href='blog-details.html'>THE FIRST WEB3 GAME like</a>
+                      <Link to='/blog-details'>THE FIRST WEB3 GAME like</Link>
                     </h2>
                     <ul className='blog-meta'>
                       <li>
@@ -151,27 +152,27 @@ const BlogInnerList = () => {
                       your outecon secture’ar inner deauty with our essential
                       infused include hits like have the best online games.
                     </p>
-                    <a className='read-more-text mt-3' href='blog-details.html'>
+                    <Link className='read-more-text mt-3' to='/blog-details'>
                       Read More <i className='fas fa-angle-double-right' />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className='pagination'>
-              <a className='prev page-numbers' href='#'>
+              <Link className='prev page-numbers' to='#'>
                 <i className='fa fa-angle-left' />
-              </a>
-              <a className='page-numbers' href='#'>
+              </Link>
+              <Link className='page-numbers' to='#'>
                 1
-              </a>
+              </Link>
               <span className='page-numbers current'>2</span>
-              <a className='page-numbers' href='#'>
+              <Link className='page-numbers' to='#'>
                 3
-              </a>
-              <a className='next page-numbers' href='#'>
+              </Link>
+              <Link className='next page-numbers' to='#'>
                 <i className='fa fa-angle-right' />
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -197,34 +198,34 @@ const BlogInnerList = () => {
                 <h4 className='widget-title'>Catagory</h4>
                 <ul className='catagory-items'>
                   <li>
-                    <a href='blog.html'>
+                    <Link to='/blog'>
                       <i className='fas fa-caret-right' /> Business{" "}
                       <span>3</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='blog.html'>
+                    <Link to='/blog'>
                       <i className='fas fa-caret-right' /> Finance{" "}
                       <span>7</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='blog.html'>
+                    <Link to='/blog'>
                       <i className='fas fa-caret-right' /> Web Design{" "}
                       <span>2</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='blog.html'>
+                    <Link to='/blog'>
                       <i className='fas fa-caret-right' /> Counsiling{" "}
                       <span>3</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='blog.html'>
+                    <Link to='/blog'>
                       <i className='fas fa-caret-right' /> IT Service{" "}
                       <span>5</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -238,7 +239,7 @@ const BlogInnerList = () => {
                       </div>
                       <div className='media-body align-self-center'>
                         <h6 className='title'>
-                          <a href='blog-details.html'>THE FIRST WEB3 GAME</a>
+                          <Link to='/blog-details'>THE FIRST WEB3 GAME</Link>
                         </h6>
                         <div className='post-info'>
                           <i className='far fa-calendar-alt' />
@@ -254,9 +255,9 @@ const BlogInnerList = () => {
                       </div>
                       <div className='media-body align-self-center'>
                         <h6 className='title'>
-                          <a href='blog-details.html'>
+                          <Link to='/blog-details'>
                             Startup Ideas for Digital Design
-                          </a>
+                          </Link>
                         </h6>
                         <div className='post-info'>
                           <i className='far fa-calendar-alt' />
@@ -272,9 +273,9 @@ const BlogInnerList = () => {
                       </div>
                       <div className='media-body align-self-center'>
                         <h6 className='title'>
-                          <a href='blog-details.html'>
+                          <Link to='/blog-details'>
                             ACROSS MOBILE or PC game!
-                          </a>
+                          </Link>
                         </h6>
                         <div className='post-info'>
                           <i className='far fa-calendar-alt' />
@@ -288,10 +289,10 @@ const BlogInnerList = () => {
               <div className='widget widget_tag_cloud mb-0'>
                 <h4 className='widget-title'>Tags</h4>
                 <div className='tagcloud'>
-                  <a href='#'>Crazy Games</a>
-                  <a href='#'>Post Type</a>
-                  <a href='#'>Who Stickman Hook </a>
-                  <a href='#'>Playhop</a>
+                  <Link to='#'>Crazy Games</Link>
+                  <Link to='#'>Post Type</Link>
+                  <Link to='#'>Who Stickman Hook </Link>
+                  <Link to='#'>Playhop</Link>
                 </div>
               </div>
             </div>

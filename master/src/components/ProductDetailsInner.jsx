@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const ProductDetailsInner = () => {
   const [thumbsSwiper, setThumbsSwiper] = React.useState(null);
@@ -126,24 +127,24 @@ const ProductDetailsInner = () => {
                   ></span>
                 </div>
                 <div className='cart-wrap border-bottom-1 pb-4 mb-3'>
-                  <a
+                  <Link
                     className='btn btn-base border-radius-0 tt-uppercase me-2 px-xl-5'
-                    href='#'
+                    to='#'
                   >
                     Add to Cart
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className='btn btn-black border-radius-0 tt-uppercase'
-                    href='#'
+                    to='#'
                   >
                     <i className='fa fa-heart ms-0'></i>
-                  </a>
+                  </Link>
                 </div>
                 <div className='info-list-product tt-uppercase fw-500'>
-                  <span>Category:</span> <a href='#'>Smart Watch</a>
+                  <span>Category:</span> <Link to='#'>Smart Watch</Link>
                 </div>
                 <div className='info-list-product tt-uppercase fw-500'>
-                  <span>Tag:</span> <a href='#'>Gadget</a>
+                  <span>Tag:</span> <Link to='#'>Gadget</Link>
                 </div>
               </div>
             </div>
@@ -341,7 +342,7 @@ const ProductDetailsInner = () => {
                 </div>
                 <div className='details'>
                   <h4 className='title'>
-                    <a href='shop-details.html'>Baseball Cap</a>
+                    <Link to='/shop-details'>Baseball Cap</Link>
                   </h4>
                   <div className='ratting'>
                     <i className='fa fa-star' />
@@ -365,7 +366,7 @@ const ProductDetailsInner = () => {
                 </div>
                 <div className='details'>
                   <h4 className='title'>
-                    <a href='shop-details.html'>Baseball Cap</a>
+                    <Link to='/shop-details'>Baseball Cap</Link>
                   </h4>
                   <div className='ratting'>
                     <i className='fa fa-star' />
@@ -389,7 +390,7 @@ const ProductDetailsInner = () => {
                 </div>
                 <div className='details'>
                   <h4 className='title'>
-                    <a href='shop-details.html'>Baseball Cap</a>
+                    <Link to='/shop-details'>Baseball Cap</Link>
                   </h4>
                   <div className='ratting'>
                     <i className='fa fa-star' />
@@ -413,7 +414,7 @@ const ProductDetailsInner = () => {
                 </div>
                 <div className='details'>
                   <h4 className='title'>
-                    <a href='shop-details.html'>Baseball Cap</a>
+                    <Link to='/shop-details'>Baseball Cap</Link>
                   </h4>
                   <div className='ratting'>
                     <i className='fa fa-star' />

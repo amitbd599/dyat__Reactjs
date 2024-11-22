@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const InstagramAreaOne = () => {
@@ -42,9 +43,9 @@ const InstagramAreaOne = () => {
   };
   return (
     <div className='instagram-slider-area position-relative'>
-      <a className='instagram-btn' href='#'>
+      <Link className='instagram-btn' to='#'>
         Instagram
-      </a>
+      </Link>
       <div className='swiper instagram-slider'>
         <div className='swiper-wrapper_inner_hold'>
           <Slider {...settings}>

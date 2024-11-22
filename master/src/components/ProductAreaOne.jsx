@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductAreaOne = () => {
   return (
@@ -31,7 +32,7 @@ const ProductAreaOne = () => {
               </div>
               <div className='details'>
                 <h4 className='title'>
-                  <a href='shop-details.html'>AirPods</a>
+                  <Link to='/shop-details'>AirPods</Link>
                 </h4>
                 <div className='ratting'>
                   <i className='fa fa-star' />
@@ -55,7 +56,7 @@ const ProductAreaOne = () => {
               </div>
               <div className='details'>
                 <h4 className='title'>
-                  <a href='shop-details.html'>Main Watch</a>
+                  <Link to='/shop-details'>Main Watch</Link>
                 </h4>
                 <div className='ratting'>
                   <i className='fa fa-star' />
@@ -79,7 +80,7 @@ const ProductAreaOne = () => {
               </div>
               <div className='details'>
                 <h4 className='title'>
-                  <a href='shop-details.html'>Baseball Cap</a>
+                  <Link to='/shop-details'>Baseball Cap</Link>
                 </h4>
                 <div className='ratting'>
                   <i className='fa fa-star' />
@@ -103,7 +104,7 @@ const ProductAreaOne = () => {
               </div>
               <div className='details'>
                 <h4 className='title'>
-                  <a href='shop-details.html'>Headphones</a>
+                  <Link to='/shop-details'>Headphones</Link>
                 </h4>
                 <div className='ratting'>
                   <i className='fa fa-star' />

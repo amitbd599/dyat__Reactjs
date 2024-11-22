@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CreatorDetailsInner = () => {
   return (
@@ -9,9 +10,9 @@ const CreatorDetailsInner = () => {
             <img src='assets/img/creator-2/13.png' alt='img' />
           </div>
           <div className='details' data-aos='fade-up' data-aos-delay='300'>
-            <a className='details-btn' href='#'>
+            <Link className='details-btn' to='#'>
               <img src='assets/img/creator-2/14.png' alt='img' />
-            </a>
+            </Link>
             <h3>Black Coin #0037</h3>
             <span className='info'>
               <svg
@@ -34,22 +35,22 @@ const CreatorDetailsInner = () => {
             <span className='line-shadow' />
             <ul>
               <li>
-                <a href='#'>Collected 45</a>
+                <Link to='#'>Collected 45</Link>
               </li>
               <li>
-                <a href='#'>Offers made</a>
+                <Link to='#'>Offers made</Link>
               </li>
               <li>
-                <a href='#'>Deals</a>
+                <Link to='#'>Deals</Link>
               </li>
               <li>
-                <a href='#'>Created</a>
+                <Link to='#'>Created</Link>
               </li>
               <li>
-                <a href='#'>Favorited</a>
+                <Link to='#'>Favorited</Link>
               </li>
               <li>
-                <a href='#'>Activity</a>
+                <Link to='#'>Activity</Link>
               </li>
             </ul>
           </div>

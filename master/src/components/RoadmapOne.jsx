@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const RoadmapOne = () => {
   return (
@@ -95,15 +96,15 @@ const RoadmapOne = () => {
                         fill='rgb(221, 242, 71)'
                         d='M8.750,0.748 C13.168,0.748 16.750,4.331 16.750,8.748 C16.750,13.166 13.168,16.748 8.750,16.748 C4.332,16.748 0.750,13.166 0.750,8.748 C0.750,4.331 4.332,0.748 8.750,0.748 Z'
                       />
-                    </svg>
+                    </svg>{" "}
                     Great Rewards Derwin ( Friend )
                   </p>
                   <div className='btn-box d-block'>
-                    <a className='btn btn-main style-small' href='#'>
+                    <Link className='btn btn-main style-small' to='#'>
                       <span>
                         <span>Road Mape</span>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div
@@ -132,13 +133,13 @@ const RoadmapOne = () => {
                         fill='rgb(221, 242, 71)'
                         d='M8.750,0.748 C13.168,0.748 16.750,4.331 16.750,8.748 C16.750,13.166 13.168,16.748 8.750,16.748 C4.332,16.748 0.750,13.166 0.750,8.748 C0.750,4.331 4.332,0.748 8.750,0.748 Z'
                       />
-                    </svg>
+                    </svg>{" "}
                     Victory Rewards Derwin ( Friend )
                   </p>
                   <div className='btn-box d-block'>
-                    <a className='btn btn-main style-small' href='#'>
+                    <Link className='btn btn-main style-small' to='#'>
                       <span>Victory Mape</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

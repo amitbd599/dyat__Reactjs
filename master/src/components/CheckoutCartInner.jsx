@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const CartCount = () => {
   let [count, setCount] = useState(0);
@@ -104,9 +105,9 @@ const CheckoutCartInner = () => {
                   placeholder='discount code'
                 />
               </div>
-              <a className='btn btn-base px-xl-5' href='#'>
+              <Link className='btn btn-base px-xl-5' to='/'>
                 Apply
-              </a>
+              </Link>
             </div>
             <div className='order-samary mb-3 p-0 border-0 mt-4'>
               <ul>
@@ -133,15 +134,15 @@ const CheckoutCartInner = () => {
             <form className='checkout-inner-left'>
               <h5 className='tt-uppercase mb-4'>express checkout</h5>
               <div className='btn-wrap d-flex justify-content-between gap-2'>
-                <a className='btn btn-border-black w-100' href='#'>
+                <Link className='btn btn-border-black w-100' to='/'>
                   <img src='assets/img/icon/14.png' alt='img' />
-                </a>
-                <a className='btn btn-border-black w-100' href='#'>
+                </Link>
+                <Link className='btn btn-border-black w-100' to='/'>
                   <img src='assets/img/icon/15.png' alt='img' />
-                </a>
-                <a className='btn btn-border-black w-100' href='#'>
+                </Link>
+                <Link className='btn btn-border-black w-100' to='/'>
                   <img src='assets/img/icon/16.png' alt='img' />
-                </a>
+                </Link>
               </div>
               <span className='or-border'>
                 <span>OR</span>
@@ -149,7 +150,7 @@ const CheckoutCartInner = () => {
               <div className='d-flex justify-content-between'>
                 <h5 className='tt-uppercase mb-4'>express checkout</h5>
                 <p className='mb-0 fw-500 tt-uppercase'>
-                  Have an account? <a href='login.html'>LOG IN</a>
+                  Have an account? <Link to='/login'>LOG IN</Link>
                 </p>
               </div>
               <div className='single-input-inner style-border border-1 border-radius-6'>
@@ -246,9 +247,9 @@ const CheckoutCartInner = () => {
                   <span>Takes 3-5 Business Day</span>
                 </div>
               </div>
-              <a className='btn btn-base w-100 tt-uppercase mt-4' href='#'>
+              <Link className='btn btn-base w-100 tt-uppercase mt-4' to='/'>
                 Continue to payment
-              </a>
+              </Link>
             </form>
           </div>
         </div>

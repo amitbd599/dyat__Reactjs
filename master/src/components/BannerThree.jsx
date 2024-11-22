@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BannerThree = () => {
   return (
@@ -34,11 +35,11 @@ const BannerThree = () => {
             data-aos='fade-up'
             data-aos-delay='600'
           >
-            <a className='btn btn-main style-small' href='about.html'>
+            <Link className='btn btn-main style-small' to='/about'>
               <span>
                 <span>Explore More</span>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
         {/* lefts-image */}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HelpCenterInner = () => {
   return (
@@ -21,7 +22,7 @@ const HelpCenterInner = () => {
               </form>
             </div>
             <div className='widget payment_wallet mb-4'>
-              <a href='#'>
+              <Link to='#'>
                 <span>
                   <i className='fa fa-copy' />
                   Payment &amp; Wallet
@@ -29,25 +30,25 @@ const HelpCenterInner = () => {
                 <span>
                   <i className='fa fa-angle-double-right' />
                 </span>
-              </a>
+              </Link>
             </div>
             <div className='widget list_widget'>
-              <a href='#'>
+              <Link to='#'>
                 <i className='fa fa-copy' />
                 On Of The Kind Of NFT Marketplace
-              </a>
-              <a href='#'>
+              </Link>
+              <Link to='#'>
                 <i className='fa fa-copy' />
                 Exclusive Payment Constrac &amp; Wallet
-              </a>
-              <a href='#'>
+              </Link>
+              <Link to='#'>
                 <i className='fa fa-copy' />
                 Voting Payment &amp; Wallet
-              </a>
-              <a href='#'>
+              </Link>
+              <Link to='#'>
                 <i className='fa fa-copy' />
                 Kind Of NFT Marketplace
-              </a>
+              </Link>
             </div>
           </div>
           <div

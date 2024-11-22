@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const TopAuctionOne = () => {
@@ -107,17 +108,20 @@ const TopAuctionOne = () => {
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='#' className='bid'>
+                        <Link to='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -136,17 +140,20 @@ const TopAuctionOne = () => {
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='#' className='bid'>
+                        <Link to='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -165,17 +172,20 @@ const TopAuctionOne = () => {
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='#' className='bid'>
+                        <Link to='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -194,17 +204,20 @@ const TopAuctionOne = () => {
                     <div className='d-flex justify-content-between align-items-center'>
                       <div className='left'>
                         <h5 className='d-block'>Highest bid</h5>
-                        <a href='#' className='bid'>
+                        <Link to='#' className='bid'>
                           <span className='icon'>
                             <i className='fa fa-link' />
                           </span>
                           3.005 <span className='color-base'>ETH</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className='right'>
-                        <a className='btn btn-base' href='creator-details.html'>
+                        <Link
+                          className='btn btn-base bid'
+                          to='/creator-details'
+                        >
                           BID <i className='fa fa-arrow-right' />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
