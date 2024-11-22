@@ -5,7 +5,7 @@ const ServiceDetailsInner = () => {
     <div className='service-details-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-4'>
+          <div className='col-lg-4' data-aos='fade-up' data-aos-delay='300'>
             <div className='service-sitebar mb-5'>
               <div className='widget-trending-match'>
                 <ul>
@@ -55,7 +55,7 @@ const ServiceDetailsInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-8'>
+          <div className='col-lg-8' data-aos='fade-up' data-aos-delay='300'>
             <div className='service-details-content'>
               <div className='thumb mb-3'>
                 <img src='assets/img/service/1.png' alt='img' />

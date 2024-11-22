@@ -5,7 +5,7 @@ const BlogArea = () => {
     <div className='blog-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-8'>
+          <div className='col-lg-8' data-aos='fade-up' data-aos-delay='300'>
             <div className='single-blog-inner style-large'>
               <div className='thumb'>
                 <img src='assets/img/blog/1.png' alt='img' />
@@ -116,7 +116,11 @@ const BlogArea = () => {
               </a>
             </div>
           </div>
-          <div className='col-lg-4 col-12'>
+          <div
+            className='col-lg-4 col-12'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='td-sidebar'>
               <div className='widget widget_author'>
                 <div className='thumb'>

@@ -5,7 +5,11 @@ const LoginInner = () => {
     <div className='product-cart-area bg-color-50 pd-top-120 pd-bottom-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-6 pe-xl-5'>
+          <div
+            className='col-lg-6 pe-xl-5'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='pe-xl-5 pe-lg-4'>
               <div className='section-title'>
                 <div className='row'>
@@ -48,7 +52,11 @@ const LoginInner = () => {
               </form>
             </div>
           </div>
-          <div className='col-lg-6 ps-xl-5 mt-lg-0 mt-5'>
+          <div
+            className='col-lg-6 ps-xl-5 mt-lg-0 mt-5'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='ps-xl-5 ps-lg-4'>
               <img className='w-100' src='assets/img/login.png' alt='img' />
               <div className='login-social-btn mt-4'>

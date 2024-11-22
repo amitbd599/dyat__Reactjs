@@ -53,7 +53,7 @@ const TopSellerAreaOne = () => {
     <div className='top-seller-area  pd-bottom-80'>
       <div className='container'>
         <div className='section-title d-md-flex justify-content-between align-items-center'>
-          <h2 className='title move-line-3d'>
+          <h2 className='title move-line-3d' data-aos='fade-up'>
             Top Seller <span>In 1 Day</span>
           </h2>
           <div className='array-button slider-control-round mt-md-0 mt-4'>
@@ -72,7 +72,11 @@ const TopSellerAreaOne = () => {
           </div>
         </div>
         <div className='swiper top-seller-slider '>
-          <div className='swiper-wrapper_inner'>
+          <div
+            className='swiper-wrapper_inner'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <Slider ref={sliderRef} {...settings}>
               <div className='swiper-slide'>
                 <div

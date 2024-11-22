@@ -11,7 +11,7 @@ const BannerTwo = () => {
           <div className='col-lg-7'>
             <div className='banner-content'>
               <h1 className='title move-line-3d'>
-                <span className='light'>
+                <span className='light' data-aos='fade-up' data-aos-delay='200'>
                   Online Eyes
                   <img
                     className='line-img left_image_bounce'
@@ -19,14 +19,25 @@ const BannerTwo = () => {
                     alt='img'
                   />
                 </span>
-                <span className='font-large'>
+                <span
+                  className='font-large'
+                  data-aos='fade-up'
+                  data-aos-delay='400'
+                >
                   crypto <span className='color-base font-jersey'>account</span>
                 </span>
               </h1>
-              <h4 className='sub-title split_chars'>GENERAL INFORMATION</h4>
+              <h4
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='600'
+              >
+                GENERAL INFORMATION
+              </h4>
               <div
                 className='btn-box d-inline-block fade-slide bottom'
-                data-delay='0.5'
+                data-aos='fade-up'
+                data-aos-delay='600'
               >
                 <a className='btn btn-main style-small' href='about.html'>
                   <span>

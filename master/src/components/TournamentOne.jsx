@@ -7,10 +7,20 @@ const TournamentOne = () => {
         <div className='row justify-content-center'>
           <div className='col-lg-8'>
             <div className='section-title text-center'>
-              <h6 className='subtitle color-base split_chars'>
+              <h6
+                className='subtitle color-base split_chars'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
                 Our Tournaments
               </h6>
-              <h2 className='title move-line-3d'>The VICTORY POINT</h2>
+              <h2
+                className='title move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='400'
+              >
+                The VICTORY POINT
+              </h2>
               <img
                 className='mt-3'
                 src='assets/img/icon/shalep-1.png'
@@ -21,7 +31,8 @@ const TournamentOne = () => {
         </div>
         <div
           className='single-tournament-inner fade-slide bottom'
-          data-delay='0.2'
+          data-aos='fade-up'
+          data-aos-delay='300'
         >
           <img
             className='bg-one'
@@ -62,7 +73,8 @@ const TournamentOne = () => {
         </div>
         <div
           className='single-tournament-inner fade-slide bottom'
-          data-delay='0.3'
+          data-aos='fade-up'
+          data-aos-delay='400'
         >
           <img
             className='bg-one'
@@ -103,7 +115,8 @@ const TournamentOne = () => {
         </div>
         <div
           className='single-tournament-inner fade-slide bottom'
-          data-delay='0.4'
+          data-aos='fade-up'
+          data-aos-delay='500'
         >
           <img
             className='bg-one'
@@ -142,7 +155,11 @@ const TournamentOne = () => {
             </div>
           </div>
         </div>
-        <div className='text-center mt-5'>
+        <div
+          className='text-center mt-5'
+          data-aos='fade-up'
+          data-aos-delay='600'
+        >
           <div className='btn-box d-block'>
             <a className='btn btn-main style-small' href='#'>
               <span>

@@ -6,7 +6,11 @@ const CreatorDetails = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-xl-4 col-md-6'>
-            <div className='single-feature-inner style-2'>
+            <div
+              className='single-feature-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
               <div className='thumb text-center p-0'>
                 <img src='assets/img/top-auction/5.png' alt='img' />
                 <ul className='count-val'>
@@ -50,7 +54,11 @@ const CreatorDetails = () => {
             </div>
           </div>
           <div className='col-xl-4 col-md-6'>
-            <div className='single-feature-inner style-2'>
+            <div
+              className='single-feature-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='thumb text-center p-0'>
                 <img src='assets/img/top-auction/6.png' alt='img' />
                 <ul className='count-val'>
@@ -94,7 +102,11 @@ const CreatorDetails = () => {
             </div>
           </div>
           <div className='col-xl-4 col-md-6'>
-            <div className='single-feature-inner style-2'>
+            <div
+              className='single-feature-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='400'
+            >
               <div className='thumb text-center p-0'>
                 <img src='assets/img/top-auction/7.png' alt='img' />
                 <ul className='count-val'>
@@ -138,7 +150,11 @@ const CreatorDetails = () => {
             </div>
           </div>
           <div className='col-xl-4 col-md-6'>
-            <div className='single-feature-inner style-2'>
+            <div
+              className='single-feature-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
               <div className='thumb text-center p-0'>
                 <img src='assets/img/top-auction/8.png' alt='img' />
                 <ul className='count-val'>
@@ -182,7 +198,11 @@ const CreatorDetails = () => {
             </div>
           </div>
           <div className='col-xl-4 col-md-6'>
-            <div className='single-feature-inner style-2'>
+            <div
+              className='single-feature-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='thumb text-center p-0'>
                 <img src='assets/img/top-auction/9.png' alt='img' />
                 <ul className='count-val'>
@@ -226,7 +246,11 @@ const CreatorDetails = () => {
             </div>
           </div>
           <div className='col-xl-4 col-md-6'>
-            <div className='single-feature-inner style-2'>
+            <div
+              className='single-feature-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='400'
+            >
               <div className='thumb text-center p-0'>
                 <img src='assets/img/top-auction/10.png' alt='img' />
                 <ul className='count-val'>

@@ -5,7 +5,13 @@ const FeatureAreaOne = () => {
     <div className='feature-area pd-top-120 pd-bottom-90'>
       <div className='container'>
         <div className='section-title d-md-flex justify-content-between align-items-center'>
-          <h2 className='title move-line-3d'>featured Item</h2>
+          <h2
+            className='title move-line-3d'
+            data-aos='fade-up'
+            data-aos-delay='250'
+          >
+            featured Item
+          </h2>
           <a
             className='read-more-arrow-text d-flex align-items-center mt-md-0 mt-4'
             href='explore-product.html'
@@ -20,7 +26,8 @@ const FeatureAreaOne = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.2'
+              data-aos='fade-up'
+              data-aos-delay='200'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Lune Studio
@@ -52,7 +59,8 @@ const FeatureAreaOne = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.3'
+              data-aos='fade-up'
+              data-aos-delay='300'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Tune Studio
@@ -84,7 +92,8 @@ const FeatureAreaOne = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.4'
+              data-aos='fade-up'
+              data-aos-delay='400'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Bone Studio
@@ -116,7 +125,8 @@ const FeatureAreaOne = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.5'
+              data-aos='fade-up'
+              data-aos-delay='500'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Doe Studio

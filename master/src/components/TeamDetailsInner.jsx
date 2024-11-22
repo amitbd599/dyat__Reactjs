@@ -5,7 +5,11 @@ const TeamDetailsInner = () => {
     <div className='team-details-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-4 col-12 pe-xl-5'>
+          <div
+            className='col-lg-4 col-12 pe-xl-5'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/2.png' alt='img' />
@@ -27,7 +31,7 @@ const TeamDetailsInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-8'>
+          <div className='col-lg-8' data-aos='fade-up' data-aos-delay='300'>
             <div className='team-details-page-content'>
               <div className='thumb mb-4'>
                 <img

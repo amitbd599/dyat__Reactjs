@@ -10,7 +10,11 @@ const TeamAreaInnerTwo = () => {
           <img className='mt-3' src='assets/img/icon/shalep-1.png' alt='img' />
         </div>
         <div className='row'>
-          <div className='col-lg-3 col-md-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-3 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/1.png' alt='img' />
@@ -32,7 +36,11 @@ const TeamAreaInnerTwo = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-3 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/1.png' alt='img' />
@@ -54,7 +62,11 @@ const TeamAreaInnerTwo = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6 fade-slide bottom' data-delay='0.4'>
+          <div
+            className='col-lg-3 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/2.png' alt='img' />
@@ -76,7 +88,11 @@ const TeamAreaInnerTwo = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6 fade-slide bottom' data-delay='0.5'>
+          <div
+            className='col-lg-3 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/3.png' alt='img' />

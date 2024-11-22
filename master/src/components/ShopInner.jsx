@@ -5,7 +5,7 @@ const ShopInner = () => {
     <div className='creator-details-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-3'>
+          <div className='col-lg-3' data-aos='fade-up' data-aos-delay='300'>
             <div className='creator-widget creator-details-widget'>
               <h4 className='widget-title'> Filter Title </h4>
               <form>
@@ -129,7 +129,11 @@ const ShopInner = () => {
               </ul>
             </div>
           </div>
-          <div className='col-lg-9 ps-xl-4'>
+          <div
+            className='col-lg-9 ps-xl-4'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='row mb-4 pb-lg-4'>
               <div className='col-lg-6 align-self-center'>
                 <p className='mb-0 tt-uppercase'>

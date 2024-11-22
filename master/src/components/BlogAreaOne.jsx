@@ -7,18 +7,36 @@ const BlogAreaOne = () => {
         <div className='row justify-content-center'>
           <div className='col-lg-6'>
             <div className='section-title text-center'>
-              <h6 className='sub-title split_chars'>Our Latest Blog</h6>
-              <h2 className='title move-line-3d'>Our Digital Blog</h2>
-              <img
-                className='mt-3'
-                src='assets/img/icon/shalep-1.png'
-                alt='img'
-              />
+              <h6
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                Our Latest Blog
+              </h6>
+              <h2
+                className='title move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                Our Digital Blog
+              </h2>
+              <span data-aos='fade-up' data-aos-delay='400'>
+                <img
+                  className='mt-3'
+                  src='assets/img/icon/shalep-1.png'
+                  alt='img'
+                />
+              </span>
             </div>
           </div>
         </div>
         <div className='row'>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-blog-inner text-center'>
               <div className='thumb'>
                 <img src='assets/img/blog/1.png' alt='img' />
@@ -51,7 +69,11 @@ const BlogAreaOne = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-blog-inner text-center'>
               <div className='thumb'>
                 <img src='assets/img/blog/2.png' alt='img' />
@@ -84,7 +106,11 @@ const BlogAreaOne = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.4'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-blog-inner text-center'>
               <div className='thumb'>
                 <img src='assets/img/blog/3.png' alt='img' />

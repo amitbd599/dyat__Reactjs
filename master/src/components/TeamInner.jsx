@@ -5,7 +5,11 @@ const TeamInner = () => {
     <div className='team-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/1.png' alt='img' />
@@ -27,7 +31,11 @@ const TeamInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/1.png' alt='img' />
@@ -49,7 +57,11 @@ const TeamInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/2.png' alt='img' />
@@ -71,7 +83,11 @@ const TeamInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/3.png' alt='img' />
@@ -93,7 +109,11 @@ const TeamInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/2.png' alt='img' />
@@ -115,7 +135,11 @@ const TeamInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/3.png' alt='img' />
@@ -137,7 +161,11 @@ const TeamInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/4.png' alt='img' />
@@ -159,7 +187,11 @@ const TeamInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <div className='single-advisors-inner'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/team/1.png' alt='img' />

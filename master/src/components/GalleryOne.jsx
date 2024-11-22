@@ -9,7 +9,11 @@ const GalleryOne = () => {
           <div className='section-title'>
             <div className='row'>
               <div className='col-lg-8 align-self-center'>
-                <h2 className='title stoke-title large-title move-line-3d'>
+                <h2
+                  className='title stoke-title large-title move-line-3d'
+                  data-aos='fade-up'
+                  data-aos-delay='300'
+                >
                   Crypto Minings
                 </h2>
               </div>

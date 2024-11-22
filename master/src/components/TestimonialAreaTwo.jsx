@@ -8,18 +8,36 @@ const TestimonialAreaTwo = () => {
         <div className='row justify-content-center'>
           <div className='col-lg-6'>
             <div className='section-title text-center'>
-              <h6 className='sub-title split_chars'>Our Testimonial</h6>
-              <h2 className='title move-line-3d'>happy customer quotes</h2>
-              <img
-                className='mt-3'
-                src='assets/img/icon/shalep-1.png'
-                alt='img'
-              />
+              <h6
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                Our Testimonial
+              </h6>
+              <h2
+                className='title move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                happy customer quotes
+              </h2>
+              <span data-aos='fade-up' data-aos-delay='400'>
+                <img
+                  className='mt-3'
+                  src='assets/img/icon/shalep-1.png'
+                  alt='img'
+                />
+              </span>
             </div>
           </div>
         </div>
         <div className='row'>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-testimonial-inner'>
               <div className='date d-flex justify-content-between'>
                 <img src='assets/img/testimonial/6.png' alt='img' />
@@ -40,7 +58,11 @@ const TestimonialAreaTwo = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-testimonial-inner'>
               <div className='date d-flex justify-content-between'>
                 <img src='assets/img/testimonial/6.png' alt='img' />
@@ -61,7 +83,11 @@ const TestimonialAreaTwo = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.4'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-testimonial-inner'>
               <div className='date d-flex justify-content-between'>
                 <img src='assets/img/testimonial/6.png' alt='img' />

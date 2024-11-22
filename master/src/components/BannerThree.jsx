@@ -8,14 +8,32 @@ const BannerThree = () => {
     >
       <div className='container position-relative'>
         <div className='banner-content text-center'>
-          <div className='thumb fade-slide bottom' data-delay='0.2'>
+          <div
+            className='thumb fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <img src='assets/img/banner-3/1.png' alt='img' />
           </div>
-          <h1 className='title split_chars'>
+          <h1
+            className='title split_chars'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             create <span>nft’s</span>
           </h1>
-          <h4 className='sub-title split_chars'>GENERAL INFORMATION</h4>
-          <div className='btn-box d-block fade-slide bottom' data-delay='0.4'>
+          <h4
+            className='sub-title split_chars'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
+            GENERAL INFORMATION
+          </h4>
+          <div
+            className='btn-box d-block fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='600'
+          >
             <a className='btn btn-main style-small' href='about.html'>
               <span>
                 <span>Explore More</span>

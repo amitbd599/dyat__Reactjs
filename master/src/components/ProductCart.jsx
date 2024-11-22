@@ -42,7 +42,7 @@ const ProductCart = () => {
     <div className='product-cart-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-8'>
+          <div className='col-lg-8' data-aos='fade-up' data-aos-delay='300'>
             <div className='product-cart-wrap'>
               <div className='media product-cart-inner'>
                 <div className='media-left'>
@@ -122,7 +122,11 @@ const ProductCart = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 ps-xl-5'>
+          <div
+            className='col-lg-4 ps-xl-5'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='order-samary mb-3'>
               <ul>
                 <li>

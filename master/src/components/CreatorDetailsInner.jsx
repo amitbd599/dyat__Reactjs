@@ -5,10 +5,10 @@ const CreatorDetailsInner = () => {
     <div className='creator-details-info pd-top-110 pd-bottom-110'>
       <div className='container'>
         <div className='d-md-flex align-self-center align-items-center'>
-          <div className='thumb me-4'>
+          <div className='thumb me-4' data-aos='fade-up' data-aos-delay='300'>
             <img src='assets/img/creator-2/13.png' alt='img' />
           </div>
-          <div className='details'>
+          <div className='details' data-aos='fade-up' data-aos-delay='300'>
             <a className='details-btn' href='#'>
               <img src='assets/img/creator-2/14.png' alt='img' />
             </a>

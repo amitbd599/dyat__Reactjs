@@ -7,21 +7,37 @@ const PlatformOne = () => {
         <div className='row'>
           <div className='col-lg-6 align-self-center'>
             <div className='about-content section-title mt-5 mt-xl-0 mb-lg-0 mb-5'>
-              <h6 className='sub-title-2'>
+              <h6
+                className='sub-title-2'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
                 Gaming Platform
                 <span />
                 <span />
                 <span />
                 <span />
               </h6>
-              <h2 className='title mb-4'>
+              <h2
+                className='title mb-4'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
                 Follow as Crepto Across <span>Ownership</span> cases
               </h2>
-              <div className='small-title-2 mb-4'>
+              <div
+                className='small-title-2 mb-4'
+                data-aos='fade-up'
+                data-aos-delay='400'
+              >
                 <img src='assets/img/about/2.png' alt='img' /> | Earn Great
                 Rewards <span className='color-base'>( Friend )</span>
               </div>
-              <div className='btn-box d-inline-block'>
+              <div
+                className='btn-box d-inline-block'
+                data-aos='fade-up'
+                data-aos-delay='500'
+              >
                 <a className='btn btn-main style-small' href='about.html'>
                   <span>
                     <span>Explore More</span>
@@ -31,7 +47,11 @@ const PlatformOne = () => {
             </div>
           </div>
           <div className='col-lg-6 pe-xl-5'>
-            <div className='single-platform-inner'>
+            <div
+              className='single-platform-inner'
+              data-aos='fade-up'
+              data-aos-delay='400'
+            >
               <img className='bg-image' src='assets/img/bg/2.png' alt='img' />
               <div className='details-inner'>
                 <a className='read-more text-end d-block' href='wallet.html'>
@@ -66,7 +86,11 @@ const PlatformOne = () => {
         </div>
         <div className='row mt-5'>
           <div className='col-lg-4'>
-            <div className='single-platform-inner style-2'>
+            <div
+              className='single-platform-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
               <img className='bg-image' src='assets/img/bg/1.png' alt='img' />
               <div className='details-inner'>
                 <a className='read-more text-end d-block' href='wallet.html'>
@@ -99,7 +123,11 @@ const PlatformOne = () => {
             </div>
           </div>
           <div className='col-lg-4'>
-            <div className='single-platform-inner style-2'>
+            <div
+              className='single-platform-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='400'
+            >
               <img className='bg-image' src='assets/img/bg/1.png' alt='img' />
               <div className='details-inner'>
                 <a className='read-more text-end d-block' href='wallet.html'>
@@ -132,7 +160,11 @@ const PlatformOne = () => {
             </div>
           </div>
           <div className='col-lg-4'>
-            <div className='single-platform-inner style-2'>
+            <div
+              className='single-platform-inner style-2'
+              data-aos='fade-up'
+              data-aos-delay='600'
+            >
               <img className='bg-image' src='assets/img/bg/1.png' alt='img' />
               <div className='details-inner'>
                 <a className='read-more text-end d-block' href='wallet.html'>

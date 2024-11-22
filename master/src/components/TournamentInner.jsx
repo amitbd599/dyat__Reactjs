@@ -5,7 +5,11 @@ const TournamentInner = () => {
     <div className='tournament-area pd-top-120 pd-bottom-100'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-tournament-2'>
               <img
                 className='bg-img'
@@ -68,7 +72,11 @@ const TournamentInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-tournament-2'>
               <img
                 className='bg-img'
@@ -131,7 +139,11 @@ const TournamentInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-6 fade-slide bottom' data-delay='0.4'>
+          <div
+            className='col-lg-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-tournament-2'>
               <img
                 className='bg-img'
@@ -194,7 +206,11 @@ const TournamentInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-6 fade-slide bottom' data-delay='0.5'>
+          <div
+            className='col-lg-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-tournament-2'>
               <img
                 className='bg-img'

@@ -42,7 +42,11 @@ const CheckoutCartInner = () => {
     <div className='checkout-area bg-color-50 pd-top-120 pd-bottom-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-6 ps-xl-5 order-lg-2'>
+          <div
+            className='col-lg-6 ps-xl-5 order-lg-2'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='media product-cart-inner'>
               <div className='media-left ps-0'>
                 <span className='left-img'>
@@ -121,7 +125,11 @@ const CheckoutCartInner = () => {
               </ul>
             </div>
           </div>
-          <div className='col-lg-6 pe-xl-5 order-lg-1 mt-lg-0 mt-5'>
+          <div
+            className='col-lg-6 pe-xl-5 order-lg-1 mt-lg-0 mt-5'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <form className='checkout-inner-left'>
               <h5 className='tt-uppercase mb-4'>express checkout</h5>
               <div className='btn-wrap d-flex justify-content-between gap-2'>

@@ -6,7 +6,11 @@ const BlogInner = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-8'>
-            <div className='blog-details-page-content'>
+            <div
+              className='blog-details-page-content'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='single-blog-inner style-large'>
                 <div className='thumb mb-4'>
                   <img
@@ -260,7 +264,7 @@ const BlogInner = () => {
             </div>
           </div>
           <div className='col-lg-4 col-12'>
-            <div className='td-sidebar'>
+            <div className='td-sidebar' data-aos='fade-up' data-aos-delay='300'>
               <div className='widget widget_author'>
                 <div className='thumb'>
                   <img src='assets/img/widget/author.png' alt='blog' />

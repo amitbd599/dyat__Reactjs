@@ -16,8 +16,8 @@ const BannerOne = () => {
         <div className='row'>
           <div className='col-lg-7'>
             <div className='banner-content'>
-              <h1 className='title move-line-3d'>
-                <span className='light'>
+              <h1 className='title move-line-3d '>
+                <span className='light' data-aos='fade-up' data-aos-delay='300'>
                   Unlesh the
                   <img
                     className='line-img'
@@ -25,26 +25,50 @@ const BannerOne = () => {
                     alt='img'
                   />
                 </span>
-                <span className='font-large'>
+                <span
+                  className='font-large'
+                  data-aos='fade-up'
+                  data-aos-delay='400'
+                >
                   create <span className='color-base'>nft’s</span>
                 </span>
-                <span className='light'>Of</span>
-                <span className='color-base'>art</span>
+                <div data-aos='fade-up' data-aos-delay='500'>
+                  <span className='light'>Of</span>
+                  <span className='color-base'>art</span>
+                </div>
               </h1>
-              <h4 className='sub-title split_chars'>GENERAL INFORMATION</h4>
-              <div className='btn-box d-inline-block fade-slide bottom'>
+              <h4
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='600'
+              >
+                GENERAL INFORMATION
+              </h4>
+              <div
+                className='btn-box d-inline-block fade-slide bottom'
+                data-aos='fade-up'
+                data-aos-delay='700'
+              >
                 <a className='btn btn-main style-small' href='about.html'>
                   <span>
                     <span>Explore More</span>
                   </span>
                 </a>
               </div>
-              <div className='list-img fade-slide bottom'>
+              <div
+                className='list-img fade-slide bottom'
+                data-aos='fade-up'
+                data-aos-delay='450'
+              >
                 <img src='assets/img/banner/1.png' alt='img' />
               </div>
             </div>
           </div>
-          <div className='col-lg-5 mt-lg-0 mt-5'>
+          <div
+            className='col-lg-5 mt-lg-0 mt-5'
+            data-aos='fade-up'
+            data-aos-delay='450'
+          >
             <div className='banner-img text-lg-end top_image_bounce'>
               <img src='assets/img/banner/2.png' alt='img' />
               <img

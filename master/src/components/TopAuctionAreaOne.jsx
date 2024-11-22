@@ -54,7 +54,11 @@ const TopAuctionAreaOne = () => {
       <div className='container'>
         <div className='section-title'>
           <div className='row'>
-            <div className='col-lg-6 col-md-8'>
+            <div
+              className='col-lg-6 col-md-8'
+              data-aos='fade-up'
+              data-aos-delay='250'
+            >
               <h6 className='sub-title split_chars'>top Auction</h6>
               <h2 className='title move-line-3d'>Limited Auction</h2>
             </div>
@@ -77,7 +81,11 @@ const TopAuctionAreaOne = () => {
           </div>
         </div>
         <div className='swiper top-auction-slider'>
-          <div className='swiper-wrapper_inner'>
+          <div
+            className='swiper-wrapper_inner'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <Slider ref={sliderRef} {...settings}>
               <div className='swiper-slide'>
                 <div className='single-feature-inner style-2'>

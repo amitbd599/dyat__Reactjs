@@ -7,8 +7,20 @@ const FeatureAreaTwo = () => {
         <div className='section-title'>
           <div className='row'>
             <div className='col-lg-8'>
-              <h6 className='subtitle color-base split_chars'>Discover Item</h6>
-              <h2 className='title move-line-3d'>Discover Item blockchain</h2>
+              <h6
+                className='subtitle color-base split_chars'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                Discover Item
+              </h6>
+              <h2
+                className='title move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                Discover Item blockchain
+              </h2>
             </div>
             <div className='col-lg-4 align-self-center text-lg-end'>
               <a
@@ -27,7 +39,8 @@ const FeatureAreaTwo = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.2'
+              data-aos='fade-up'
+              data-aos-delay='200'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Tune Studio
@@ -49,7 +62,7 @@ const FeatureAreaTwo = () => {
                   </a>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <a className='btn btn-base bid' href='creator-details.html'>
                     BID <i className='fa fa-arrow-right' />
                   </a>
                 </div>
@@ -59,7 +72,8 @@ const FeatureAreaTwo = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.3'
+              data-aos='fade-up'
+              data-aos-delay='300'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Doe Studio
@@ -81,7 +95,7 @@ const FeatureAreaTwo = () => {
                   </a>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <a className='btn btn-base bid' href='creator-details.html'>
                     BID <i className='fa fa-arrow-right' />
                   </a>
                 </div>
@@ -91,7 +105,8 @@ const FeatureAreaTwo = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.4'
+              data-aos='fade-up'
+              data-aos-delay='400'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Sone Studio
@@ -113,7 +128,7 @@ const FeatureAreaTwo = () => {
                   </a>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <a className='btn btn-base bid' href='creator-details.html'>
                     BID <i className='fa fa-arrow-right' />
                   </a>
                 </div>
@@ -123,7 +138,8 @@ const FeatureAreaTwo = () => {
           <div className='col-xl-3 col-md-6'>
             <div
               className='single-feature-inner fade-slide bottom'
-              data-delay='0.5'
+              data-aos='fade-up'
+              data-aos-delay='500'
             >
               <h4 className='title d-flex justify-content-between align-items-center'>
                 Piex Studio
@@ -145,7 +161,7 @@ const FeatureAreaTwo = () => {
                   </a>
                 </div>
                 <div className='right'>
-                  <a className='btn btn-base' href='creator-details.html'>
+                  <a className='btn btn-base bid' href='creator-details.html'>
                     BID <i className='fa fa-arrow-right' />
                   </a>
                 </div>

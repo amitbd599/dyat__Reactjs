@@ -5,7 +5,11 @@ const BlogInnerGrid = () => {
     <div className='blog-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-blog-inner'>
               <div className='thumb'>
                 <img src='assets/img/blog/1.png' alt='img' />
@@ -38,7 +42,11 @@ const BlogInnerGrid = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-blog-inner'>
               <div className='thumb'>
                 <img src='assets/img/blog/2.png' alt='img' />
@@ -71,7 +79,11 @@ const BlogInnerGrid = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.4'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-blog-inner'>
               <div className='thumb'>
                 <img src='assets/img/blog/3.png' alt='img' />
@@ -104,7 +116,11 @@ const BlogInnerGrid = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-blog-inner'>
               <div className='thumb'>
                 <img src='assets/img/blog/1.png' alt='img' />
@@ -137,7 +153,11 @@ const BlogInnerGrid = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-blog-inner'>
               <div className='thumb'>
                 <img src='assets/img/blog/2.png' alt='img' />
@@ -170,7 +190,11 @@ const BlogInnerGrid = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.4'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-blog-inner'>
               <div className='thumb'>
                 <img src='assets/img/blog/3.png' alt='img' />

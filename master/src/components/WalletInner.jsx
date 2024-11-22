@@ -5,7 +5,11 @@ const WalletInner = () => {
     <div className='wallet-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -38,7 +42,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -71,7 +79,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.4'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -104,7 +116,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.5'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -137,7 +153,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.6'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='600'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -170,7 +190,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.7'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='700'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -203,7 +227,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.8'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='800'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -236,7 +264,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.9'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='900'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>
@@ -269,7 +301,11 @@ const WalletInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay={1.0}>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='1000'
+          >
             <div className='single-platform-inner style-2'>
               <img className='bg-image' src='assets/img/bg/5.png' alt='img' />
               <div className='details-inner'>

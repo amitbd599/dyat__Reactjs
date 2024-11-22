@@ -57,8 +57,20 @@ const TopAdvisorsOne = () => {
         <div className='section-title'>
           <div className='row'>
             <div className='col-lg-6'>
-              <h6 className='sub-title split_chars'>Team &amp; Advisors</h6>
-              <h2 className='title move-line-3d'>Crypto Expert Advisors</h2>
+              <h6
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
+                Team &amp; Advisors
+              </h6>
+              <h2
+                className='title move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                Crypto Expert Advisors
+              </h2>
             </div>
             <div className='col-lg-6 align-self-center mt-md-0 mt-4'>
               <div className='array-button slider-control-round  text-lg-end'>
@@ -79,7 +91,11 @@ const TopAdvisorsOne = () => {
           </div>
         </div>
         <div className='swiper advisors-slider'>
-          <div className='swiper-wrapper_inner'>
+          <div
+            className='swiper-wrapper_inner'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <Slider ref={sliderRef} {...settings}>
               <div className='swiper-slide'>
                 <div className='single-advisors-inner'>

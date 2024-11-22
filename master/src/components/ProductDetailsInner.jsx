@@ -12,7 +12,11 @@ const ProductDetailsInner = () => {
   return (
     <>
       {/* Product-details start */}
-      <div className='product-details-area inner pd-top-120'>
+      <div
+        className='product-details-area inner pd-top-120'
+        data-aos='fade-up'
+        data-aos-delay='300'
+      >
         <div className='container'>
           <div className='row'>
             {/* Product Image Slider */}
@@ -148,7 +152,11 @@ const ProductDetailsInner = () => {
       </div>
       {/* Product-details end */}
       {/* Product-details tab start */}
-      <div className='product-details-tab-area pd-top-120'>
+      <div
+        className='product-details-tab-area pd-top-120'
+        data-aos='fade-up'
+        data-aos-delay='300'
+      >
         <div className='container'>
           <div className='product-details-tab-inner'>
             <div className='row'>
@@ -317,12 +325,16 @@ const ProductDetailsInner = () => {
       <div className='product-area pd-top-100 bg-cover'>
         <div className='container'>
           <div className='section-title'>
-            <h2 className='title'>
+            <h2 className='title' data-aos='fade-up' data-aos-delay='200'>
               RELATED <span>PRODUCTS</span>
             </h2>
           </div>
           <div className='row'>
-            <div className='col-lg-3 col-md-6'>
+            <div
+              className='col-lg-3 col-md-6'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
               <div className='single-product-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/product/1.png' alt='img' />
@@ -342,7 +354,11 @@ const ProductDetailsInner = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
+            <div
+              className='col-lg-3 col-md-6'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='single-product-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/product/2.png' alt='img' />
@@ -362,7 +378,11 @@ const ProductDetailsInner = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
+            <div
+              className='col-lg-3 col-md-6'
+              data-aos='fade-up'
+              data-aos-delay='400'
+            >
               <div className='single-product-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/product/3.png' alt='img' />
@@ -382,7 +402,11 @@ const ProductDetailsInner = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
+            <div
+              className='col-lg-3 col-md-6'
+              data-aos='fade-up'
+              data-aos-delay='500'
+            >
               <div className='single-product-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/product/4.png' alt='img' />

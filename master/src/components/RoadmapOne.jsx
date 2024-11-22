@@ -10,7 +10,11 @@ const RoadmapOne = () => {
         <div className='row'>
           <div className='col-lg-4 align-self-center'>
             <div className='section-title'>
-              <h6 className='sub-title split_chars'>
+              <h6
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='200'
+              >
                 Wish-Keeper{" "}
                 <img
                   className='ms-2'
@@ -18,10 +22,18 @@ const RoadmapOne = () => {
                   alt='img'
                 />
               </h6>
-              <h2 className='title mb-4 move-line-3d'>
+              <h2
+                className='title mb-4 move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
                 Roadmap VICTORY ISLAND
               </h2>
-              <nav className='roadmap-tab fade-slide bottom' data-delay='0.2'>
+              <nav
+                className='roadmap-tab fade-slide bottom'
+                data-aos='fade-up'
+                data-aos-delay='400'
+              >
                 <div className='nav nav-tabs' id='nav-tab' role='tablist'>
                   <button
                     className='nav-link active'
@@ -53,7 +65,8 @@ const RoadmapOne = () => {
               </nav>
               <div
                 className='tab-content fade-slide bottom'
-                data-delay='0.4'
+                data-aos='fade-up'
+                data-aos-delay='500'
                 id='nav-tabContent'
               >
                 <div
@@ -131,7 +144,11 @@ const RoadmapOne = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.2'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-roadmap-inner'>
               <img
                 className='shape-img'
@@ -177,7 +194,11 @@ const RoadmapOne = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-roadmap-inner'>
               <img
                 className='shape-img'

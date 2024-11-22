@@ -6,8 +6,20 @@ const BlockChainGalleryAreaOne = () => {
     <div className='block-chain-gallery-area one pd-bottom-120'>
       <div className='container'>
         <div className='section-title text-center'>
-          <h6 className='sub-title split_chars'>Our Blockchain</h6>
-          <h2 className='title move-line-3d'>Powered by blockchain</h2>
+          <h6
+            className='sub-title split_chars'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
+            Our Blockchain
+          </h6>
+          <h2
+            className='title move-line-3d'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
+            Powered by blockchain
+          </h2>
         </div>
         <div className='block-chain-gallery-slider'>
           <Swiper

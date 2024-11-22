@@ -10,10 +10,26 @@ const CreatorAreaOne = () => {
         <div className='section-title'>
           <div className='row'>
             <div className='col-lg-6'>
-              <h6 className='sub-title split_chars'>Our nft creator</h6>
-              <h2 className='title  move-line-3d'>Top creator of week</h2>
+              <h6
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                Our nft creator
+              </h6>
+              <h2
+                className='title  move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='400'
+              >
+                Top creator of week
+              </h2>
             </div>
-            <div className='col-lg-6 text-lg-end fade-slide bottom'>
+            <div
+              className='col-lg-6 text-lg-end fade-slide bottom'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='btn-box d-inline-block'>
                 <a className='btn btn-main style-small' href='about.html'>
                   <span>
@@ -25,7 +41,11 @@ const CreatorAreaOne = () => {
           </div>
         </div>
         <div className='row'>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.3'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div
               className='single-creator-inner'
               style={{ backgroundImage: 'url("assets/img/creator/bg.png")' }}
@@ -71,7 +91,11 @@ const CreatorAreaOne = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.5'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div
               className='single-creator-inner'
               style={{ backgroundImage: 'url("assets/img/creator/bg.png")' }}
@@ -117,7 +141,11 @@ const CreatorAreaOne = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 fade-slide bottom' data-delay='0.7'>
+          <div
+            className='col-lg-4 col-md-6 fade-slide bottom'
+            data-aos='fade-up'
+            data-aos-delay='600'
+          >
             <div
               className='single-creator-inner'
               style={{ backgroundImage: 'url("assets/img/creator/bg.png")' }}

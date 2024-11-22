@@ -60,8 +60,18 @@ const TestimonialAreaOne = () => {
         <div className='section-title'>
           <div className='row'>
             <div className='col-lg-6'>
-              <h6 className='sub-title split_chars'>Our Testimonials</h6>
-              <h2 className='title move-line-3d'>
+              <h6
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                Our Testimonials
+              </h6>
+              <h2
+                className='title move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='400'
+              >
                 our client <span>feedback</span>
               </h2>
             </div>

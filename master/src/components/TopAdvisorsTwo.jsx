@@ -40,8 +40,20 @@ const TopAdvisorsTwo = () => {
         <div className='row justify-content-center'>
           <div className='col-lg-6'>
             <div className='section-title text-center'>
-              <h6 className='sub-title split_chars'>Team &amp; Advisors</h6>
-              <h2 className='title move-line-3d'>Meet Our Members</h2>
+              <h6
+                className='sub-title split_chars'
+                data-aos='fade-up'
+                data-aos-delay='300'
+              >
+                Team &amp; Advisors
+              </h6>
+              <h2
+                className='title move-line-3d'
+                data-aos='fade-up'
+                data-aos-delay='400'
+              >
+                Meet Our Members
+              </h2>
               <img
                 className='mt-3'
                 src='assets/img/icon/shalep-1.png'
@@ -51,7 +63,11 @@ const TopAdvisorsTwo = () => {
           </div>
         </div>
         <div className='swiper advisors-slider'>
-          <div className='swiper-wrapper_inner'>
+          <div
+            className='swiper-wrapper_inner'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <Slider {...settings}>
               <div className='swiper-slide px-3'>
                 <div className='single-advisors-inner'>

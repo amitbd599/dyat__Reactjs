@@ -30,6 +30,7 @@ import TeamPage from "./pages/TeamPage";
 import TournamentDetailsPage from "./pages/TournamentDetailsPage";
 import TournamentPage from "./pages/TournamentPage";
 import WalletPage from "./pages/WalletPage";
+import Animation from "./helper/Animation";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <RouteScrollToTop />
       <CustomCursor />
       <BackToTop />
+      <Animation />
 
       <Routes>
         <Route exact path='/' element={<HomePageOne />} />

@@ -5,7 +5,7 @@ const HelpCenterInner = () => {
     <div className='creator-details-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-4'>
+          <div className='col-lg-4' data-aos='fade-up' data-aos-delay='300'>
             <div className='widget widget_search mb-5 pb-lg-5'>
               <h4 className='widget-title'>
                 Search A <span>Question</span>
@@ -50,7 +50,11 @@ const HelpCenterInner = () => {
               </a>
             </div>
           </div>
-          <div className='col-lg-8 ps-xl-4'>
+          <div
+            className='col-lg-8 ps-xl-4'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='row pb-lg-4'>
               <div className='col-lg-6 align-self-center'>
                 <div className='filter-inner-btn'>

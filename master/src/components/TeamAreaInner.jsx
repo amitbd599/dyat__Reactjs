@@ -5,7 +5,11 @@ const TeamAreaInner = () => {
     <div className='team-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/1.png' alt='img' />
@@ -38,7 +42,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/2.png' alt='img' />
@@ -71,7 +79,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/3.png' alt='img' />
@@ -104,7 +116,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/4.png' alt='img' />
@@ -137,7 +153,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/5.png' alt='img' />
@@ -170,7 +190,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/6.png' alt='img' />
@@ -203,7 +227,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/7.png' alt='img' />
@@ -236,7 +264,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/8.png' alt='img' />
@@ -269,7 +301,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/9.png' alt='img' />
@@ -302,7 +338,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/10.png' alt='img' />
@@ -335,7 +375,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='400'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/11.png' alt='img' />
@@ -368,7 +412,11 @@ const TeamAreaInner = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3 col-md-6'>
+          <div
+            className='col-lg-3 col-md-6'
+            data-aos='fade-up'
+            data-aos-delay='500'
+          >
             <div className='single-creator-inner-2'>
               <div className='thumb text-center p-0'>
                 <img src='assets/img/creator-2/12.png' alt='img' />

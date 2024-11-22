@@ -5,7 +5,11 @@ const CreatorDetailsArea = () => {
     <div className='creator-details-area pd-top-120'>
       <div className='container'>
         <div className='row'>
-          <div className='col-xl-3 col-lg-4'>
+          <div
+            className='col-xl-3 col-lg-4'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <div className='creator-widget creator-category-widget'>
               <h4 className='creator-widget mb-4'>Preview Items</h4>
               <div className='single-feature-inner style-2'>
@@ -55,7 +59,11 @@ const CreatorDetailsArea = () => {
               </div>
             </div>
           </div>
-          <div className='col-xl-9 col-lg-8'>
+          <div
+            className='col-xl-9 col-lg-8'
+            data-aos='fade-up'
+            data-aos-delay='300'
+          >
             <form className='create-items-form'>
               <div className='image-upload d-md-flex justify-content-between align-items-center'>
                 <p className='mb-md-0'>

@@ -6,7 +6,11 @@ const CreatorItems = () => {
       <div className='creator-details-area pd-top-120'>
         <div className='container'>
           <div className='row'>
-            <div className='col-xl-3 col-lg-4'>
+            <div
+              className='col-xl-3 col-lg-4'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='creator-widget creator-details-widget'>
                 <h4 className='creator-widget'> Filter Title </h4>
                 <form>
@@ -57,7 +61,11 @@ const CreatorItems = () => {
                 </ul>
               </div>
             </div>
-            <div className='col-xl-9 col-lg-8'>
+            <div
+              className='col-xl-9 col-lg-8'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='row mb-4 pb-lg-3'>
                 <div className='col-lg-6 align-self-center'>
                   <p className='mb-0 tt-uppercase'>

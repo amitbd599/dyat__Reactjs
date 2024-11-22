@@ -7,7 +7,7 @@ const TournamentDetailsInner = () => {
       <div className='tournament-details-area pd-top-120 '>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-8'>
+            <div className='col-lg-8' data-aos='fade-up' data-aos-delay='300'>
               <div className='team-details-page-content'>
                 <div className='row mb-4'>
                   <div className='col-md-6'>
@@ -154,7 +154,11 @@ const TournamentDetailsInner = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4 col-12 pe-xl-5 mt-lg-0 mt-4'>
+            <div
+              className='col-lg-4 col-12 pe-xl-5 mt-lg-0 mt-4'
+              data-aos='fade-up'
+              data-aos-delay='300'
+            >
               <div className='widget widget-tournament-contact'>
                 <div className='border-bottom-1 pb-2 mb-4'>
                   <h3 className='border-left-base tt-uppercase ps-3 mobile-medium'>
@@ -256,12 +260,20 @@ const TournamentDetailsInner = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
               <div className='section-title text-center'>
-                <h6 className='sub-title tt-uppercase'>schedule</h6>
-                <h2 className='title'>Match Sschedule</h2>
+                <h6
+                  className='sub-title tt-uppercase'
+                  data-aos='fade-up'
+                  data-aos-delay='300'
+                >
+                  schedule
+                </h6>
+                <h2 className='title' data-aos='fade-up' data-aos-delay='400'>
+                  Match Schedule
+                </h2>
               </div>
             </div>
           </div>
-          <div className='row'>
+          <div className='row' data-aos='fade-up' data-aos-delay='300'>
             <div className='col-lg-4'>
               <div className='game-info bg-box border-box border-radius-10 p-4 mb-4'>
                 <div className='d-flex align-self-center justify-content-between'>
@@ -308,7 +320,7 @@ const TournamentDetailsInner = () => {
               </div>
             </div>
           </div>
-          <div className='schedule-img'>
+          <div className='schedule-img' data-aos='fade-up' data-aos-delay='300'>
             <img src='assets/img/schedule.png' alt='img' />
           </div>
         </div>
