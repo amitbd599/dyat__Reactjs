@@ -1,30 +1,29 @@
-// CustomCursor.js
 import React, { useEffect, useRef } from "react";
 
 const CustomCursor = () => {
+  // Using refs to store mutable values
   const cursorRef = useRef(null);
   const followerRef = useRef(null);
-
-  // Mouse positions
-  let mouseX = 0;
-  let mouseY = 0;
-  let posX = 0;
-  let posY = 0;
+  const mouseX = useRef(0);
+  const mouseY = useRef(0);
+  const posX = useRef(0);
+  const posY = useRef(0);
 
   useEffect(() => {
     // Function to animate the cursor and follower
     const animateCursor = () => {
-      posX += (mouseX - posX) / 9;
-      posY += (mouseY - posY) / 9;
+      // Smoothly update the position using refs
+      posX.current += (mouseX.current - posX.current) / 9;
+      posY.current += (mouseY.current - posY.current) / 9;
 
       if (followerRef.current) {
-        followerRef.current.style.left = `${posX - 12}px`;
-        followerRef.current.style.top = `${posY - 12}px`;
+        followerRef.current.style.left = `${posX.current - 12}px`;
+        followerRef.current.style.top = `${posY.current - 12}px`;
       }
 
       if (cursorRef.current) {
-        cursorRef.current.style.left = `${mouseX}px`;
-        cursorRef.current.style.top = `${mouseY}px`;
+        cursorRef.current.style.left = `${mouseX.current}px`;
+        cursorRef.current.style.top = `${mouseY.current}px`;
       }
 
       requestAnimationFrame(animateCursor);
@@ -35,8 +34,8 @@ const CustomCursor = () => {
 
     // Track mouse movement
     const handleMouseMove = (e) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
+      mouseX.current = e.clientX;
+      mouseY.current = e.clientY;
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -45,7 +44,7 @@ const CustomCursor = () => {
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
-  }, []);
+  }, []); // Empty dependency array means this effect runs only once when the component mounts
 
   return (
     <>
