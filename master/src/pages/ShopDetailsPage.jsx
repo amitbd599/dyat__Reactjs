@@ -11,7 +11,7 @@ const ShopDetailsPage = () => {
       <HeaderTwo />
 
       {/* BreadcrumbOne */}
-      <BreadcrumbOne title='Product' theme='Details' inner='Product Details' />
+      <BreadcrumbOne title='Shop' theme='Details' inner='Shop Details' />
 
       {/* ProductDetailsInner */}
       <ProductDetailsInner />

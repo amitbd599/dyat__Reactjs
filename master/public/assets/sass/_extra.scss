@@ -148,3 +148,42 @@
   padding-top: 14px;
   padding-left: 8px;
 }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.custom__container {
+  @media #{$xl} {
+    max-width: 976px;
+  }
+  .navbar-nav {
+    @media #{$xl} {
+      text-align: center !important;
+    }
+  }
+  .logo {
+    @media #{$xl} {
+      margin-right: 12px;
+    }
+  }
+  .nav-right-part-desktop {
+    @media #{$xl} {
+      margin-left: 0px;
+    }
+  }
+}
+
+.single-blog-inner {
+  @media #{$sm} {
+    .thumb img {
+      width: 100%;
+    }
+  }
+}

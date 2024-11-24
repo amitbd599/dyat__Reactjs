@@ -31,7 +31,7 @@ const TestimonialAreaOne = () => {
       {
         breakpoint: 1199,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
       {
@@ -43,7 +43,7 @@ const TestimonialAreaOne = () => {
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {

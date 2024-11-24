@@ -99,7 +99,7 @@ const HeaderThree = () => {
           scroll ? "sticky-active" : ""
         }`}
       >
-        <div className='container nav-container px-lg-0'>
+        <div className='container nav-container px-lg-0 custom__container'>
           <div className='responsive-mobile-menu'>
             <button
               className='menu toggle-btn d-block d-lg-none'
@@ -665,10 +665,13 @@ const HeaderThree = () => {
                   activeMenu === 0 ? "show" : ""
                 }`}
               >
-                <Link to='#'  onClick={(e) => {
+                <Link
+                  to='#'
+                  onClick={(e) => {
                     e.preventDefault();
                     handleSubMenuToggle(0);
-                  }}>
+                  }}
+                >
                   Home
                 </Link>
                 <ul
@@ -696,10 +699,13 @@ const HeaderThree = () => {
                   activeMenu === 1 ? "show" : ""
                 }`}
               >
-                <Link to='#'  onClick={(e) => {
+                <Link
+                  to='#'
+                  onClick={(e) => {
                     e.preventDefault();
                     handleSubMenuToggle(1);
-                  }}>
+                  }}
+                >
                   Tournament
                 </Link>
                 <ul
@@ -720,10 +726,13 @@ const HeaderThree = () => {
                   activeMenu === 2 ? "show" : ""
                 }`}
               >
-                <Link to='#'  onClick={(e) => {
+                <Link
+                  to='#'
+                  onClick={(e) => {
                     e.preventDefault();
                     handleSubMenuToggle(2);
-                  }}>
+                  }}
+                >
                   Shop
                 </Link>
                 <ul
@@ -753,10 +762,13 @@ const HeaderThree = () => {
                   activeMenu === 3 ? "show" : ""
                 }`}
               >
-                <Link to='#'  onClick={(e) => {
+                <Link
+                  to='#'
+                  onClick={(e) => {
                     e.preventDefault();
                     handleSubMenuToggle(3);
-                  }}>
+                  }}
+                >
                   Pages
                 </Link>
                 <ul
